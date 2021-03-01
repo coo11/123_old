@@ -12,13 +12,11 @@
     "url": "git+https://github.com/coo11/123.git"
   },
   "homepage": "https://github.com/coo11/123",
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^4.3.0",
-    "gulp-uglify": "^3.0.2"
-  },
-  "dependencies": {
+    "gulp-uglify": "^3.0.2",
     "gulp.spritesmith": "^6.11.0",
     "js-yaml": "^4.0.0",
     "pinyin": "^2.9.1"

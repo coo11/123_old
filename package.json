@@ -1,0 +1,26 @@
+{
+  "name": "123",
+  "version": "1.0.0",
+  "description": "coo11's personal front page",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "author": "coo11",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coo11/123.git"
+  },
+  "homepage": "https://github.com/coo11/123",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "gulp.spritesmith": "^6.11.0",
+    "js-yaml": "^4.0.0",
+    "pinyin": "^2.9.1"
+  }
+}

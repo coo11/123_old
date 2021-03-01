@@ -1,0 +1,389 @@
+title: coo11's personal front page
+
+images:
+  - http://tva2.sinaimg.cn/large/007HLCaply1g3txfml208j31hc0u0agm.jpg
+  - http://tva3.sinaimg.cn/large/007HLCaply1g6yyg0k3u6j315o0the1w.jpg
+  - http://tva4.sinaimg.cn/large/007HLCaply1g3txganifkj31hc0u07nc.jpg
+  - http://tva1.sinaimg.cn/large/007HLCaply1g3txg3ge70j31jk13a7ea.jpg
+  - http://tva1.sinaimg.cn/large/007HLCaply1g3txfykvg5j31jk0yq7bb.jpg
+
+bookmark:
+  - name: Google
+    url: https://www.google.com/ncr
+    favicon: google.png
+  - name: Gmail
+    url: https://inbox.google.com/
+    favicon: gmail.png
+  - name: QQ邮箱
+    url: https://mail.qq.com/
+    favicon: qqmail.png
+  - name: YandexMail
+    url: https://mail.yandex.com/
+    favicon: yandexmail.png
+  - name: Wikipedia
+    url: https://zh.wikipedia.org/zh-hans/Wikipedia:%E9%A6%96%E9%A1%B5
+    favicon: wiki.png
+  - name: GitHub
+    url: https://github.com/coo11
+    favicon: github.png
+  - name: Youtube
+    url: https://www.youtube.com/
+    favicon: youtube.png
+  - name: 哔哩哔哩
+    url: https://www.bilibili.com/
+    favicon: bilibili.png
+  - name: Telegram
+    url: https://web.telegram.org/
+    favicon: telegram.png
+  - name: Inoreader
+    url: https://jp.inoreader.com/language/chinese-simplified
+    favicon: inoreader.png
+  - name: 坚果云
+    url: https://www.jianguoyun.com/
+    favicon: jianguoyun.png
+  - name: 百度网盘
+    url: https://pan.baidu.com/disk/home
+    favicon: baidunetdisk.png
+  - name: DeepL
+    url: https://www.deepl.com/translator
+    favicon: deepl.png
+  - name: Pixiv
+    url: https://www.pixiv.net/
+    favicon: pixiv.png
+
+  - category: 社交网络
+  - name: 知乎
+    url: https://www.zhihu.com/
+    favicon: zhihu.png
+  - name: Twitter
+    url: https://twitter.com/
+    favicon: twitter.png
+  - name: 微博
+    url: http://weibo.com/xcatliu/home
+    favicon: weibo.png
+  - name: 虎牙
+    url: https://www.huya.com/
+    favicon: huya.png
+  - name: 斗鱼
+    url: https://www.douyu.com/
+    favicon: douyu.png
+    
+  - category: 搜索
+  - name: Twitter高级搜索
+    url: https://twitter.com/search-advanced
+    favicon: twitter.png
+  - name: Bing
+    url: https://www.bing.com/
+    favicon: bing.png
+  - name: Yahoo
+    url: https://search.yahoo.com/
+    favicon: yahoo.png
+  - name: Google学术
+    url: https://scholar.google.com/
+    favicon: googlescolar.png
+  - name: Magi
+    url: https://magi.com/
+  - name: Yandex搜图
+    url: https://yandex.com/images/
+    favicon: yandeximage.png
+  - name: Google搜图
+    url: https://juejin.im/
+    favicon: google.png
+  - name: 百度识图
+    url: http://image.baidu.com/?fr=shitu
+    favicon: baidu.png
+  - name: IQDB
+    url: https://iqdb.org/
+    favicon: iqdb.png
+  - name: SauceNAO
+    url: https://saucenao.com/
+    favicon: saucenao.png
+  - name: ASCII2D
+    url: https://ascii2d.net/
+    favicon: ascii2d.png
+  - name: WAIT
+    url: https://trace.moe/
+
+  - category: ACG
+  - name: 天使动漫
+    url: https://www.tsdm39.net/forum.php
+  - name: 萌娘百科
+    url: https://segmentfault.com/
+  - name: 番组计划
+    url: https://bgm.tv/
+    favicon: bangumi.png
+  - name: 动漫花园
+    url: https://share.dmhy.org/
+    favicon: ruby-china.png
+  - name: AcFun
+    url: https://www.acfun.cn/
+    favicon: acfun.png
+  - name: 动漫之家
+    url: https://manhua.dmzj.com/
+  - name: 樱花动漫
+    url: http://www.imomoe.ai/
+    favicon: imomoe.png
+  - name: 爱恋动漫
+    url: http://www.kisssub.org/
+  
+  - category: 社区
+  - name: V2EX
+    url: https://v2ex.com/
+    favicon: v2ex.png
+  - name: reddit
+    url: https://www.reddit.com/
+    favicon: reddit.png
+  - name: 4chan
+    url: https://www.4chan.org/
+    favicon: 4chan.png
+  - name: Twitch
+    url: https://www.twitch.tv/
+    favicon: twitch.png
+  - name: Steam
+    url: https://steamcommunity.com/
+    favicon: steam.png
+  - name: NGA
+    url: https://bbs.nga.cn/
+    favicon: nga.png
+  - name: A岛匿名版
+    url: https://adnmb.com/
+  - name: ExcelHome
+    url: http://club.excelhome.net/forum.php
+  - name: 吾爱破解
+    url: https://www.52pojie.cn/
+  - name: 万能福利吧
+    url: https://fuliba2020.net/
+
+  - category: Shopping
+  - name: 京东
+    url: https://search.jd.com/
+    favicon: jingdong.png
+  - name: 淘宝
+    url: https://search.taobao.com/
+    favicon: taobao.png
+  - name: Amazon
+    url: https://www.amazon.co.jp/
+    favicon: amazon.png
+  
+  - category: Dev
+  - name: StackOverflow
+    url: https://stackoverflow.com/
+    favicon: stackoverflow.png
+  - name: MDN
+    url: https://developer.mozilla.org/zh-CN/docs/Learn
+    favicon: mdn.png
+  - name: RegExr
+    url: https://regexr.com/
+    favicon: regexr.png
+  - name: CodePen
+    url: https://codepen.io/
+    favicon: codepen.png
+  - name: Carbon
+    url: https://carbon.now.sh/
+  - name: SVGOMG
+    url: https://jakearchibald.github.io/svgomg/
+  - name: ScreenSizes
+    url: https://screensiz.es/
+  - name: HTML2MD
+    url: https://tool.lu/markdown/
+  - name: musicForProgramming
+    url: https://musicforprogramming.net/
+    favicon: musicforprogramming.png
+  - name: Coding
+    url: https://coding.net/
+    favicon: coding.png
+  - name: iconfont
+    url: https://www.iconfont.cn/
+    favicon: iconfont.png
+
+  - category: Utils
+  - name: GoogleVoice
+    url: https://voice.google.com/messages
+    favicon: googlevoice.png
+  - name: Textnow
+    url: https://www.textnow.com/messaging
+    favicon: textnow.png
+  - name: UnicodeTable
+    url: https://unicode-table.com/cn/
+    favicon: unicodetable.png
+  - name: TableConvert
+    url: https://tableconvert.com/
+  - name: InternetArchive
+    url: https://archive.org/web/
+  - name: Archive.today
+    url: https://archive.is/
+  - name: Dropmail
+    url: https://dropmail.me/zh/
+  - name: AriaNg
+    url: http://es1raq.coding-pages.com/
+  - name: Sketchpad
+    url: https://sketch.io/sketchpad/?lang=zh
+    favicon: sketchpad.png
+  - name: PaperSizes
+    url: https://papersizes.io/
+    favicon: papersizes.png
+  - name: Online Convert
+    url: https://www.online-convert.com/
+    favicon: onlineconvert.png
+  - name: CloudConvert
+    url: https://cloudconvert.com/
+    favicon: cloudconvert.png
+  - name: iLovePDF
+    url: https://www.ilovepdf.com/zh-cn
+    favicon: ilovepdf.png
+
+  - category: Image Utils
+  - name: PixFix
+    url: https://zh.pixfix.com/
+    favicon: pixfix.png
+  - name: waifu2x
+    url: https://waifu2x.booru.pics/
+    # Alternatives
+    # https://waifu2x.me/
+    # https://waifu2x.udp.jp/
+  - name: TinyPNG
+    url: https://tinypng.com/
+  - name: Watermark
+    url: https://ee6vut.coding-pages.com/
+    favicon: pic.png
+  - name: EZGIF
+    url: https://ezgif.com/
+    favicon: pic.png
+  - name: Elimage
+    url: https://img.vim-cn.com/
+  - name: P.SDA1.DEV
+    url: https://p.sda1.dev/
+  - name: NiuPic
+    url: https://niupic.com/
+  - name: ImgOps
+    url: http://imgops.com/
+    favicon: imgops.png
+  - name: 动图基地
+    url: https://www.asqql.com/g/
+
+  - category: Cloud Service
+  - name: iCloud
+    url: https://www.icloud.com/
+    favicon: icloud.png
+  - name: 蓝奏云
+    url: https://www.lanzou.com/
+    favicon: lanzou.png
+  - name: Cloudflare Wokers
+    url: https://workers.cloudflare.com/
+    favicon: cloudflare.png
+  - name: FilePizza
+    url: https://file.pizza/
+    favicon: filepizza.png
+  - name: Litterbox
+    url: https://litterbox.catbox.moe/
+  - name: 印象笔记
+    url: https://www.yinxiang.com/
+    favicon: yinxiang.png
+
+  - category: Calc
+  - name: NumberEmpire
+    url: https://zh.numberempire.com/
+  - name: MathStudio
+    url: http://mathstud.io/
+    favicon: mathstudio.png
+  - name: Desmos
+    url: https://www.desmos.com/calculator?lang=zh-CN
+    favicon: desmos.png
+    # Alternative
+    # https://www.geogebra.org/graphing
+  - name: Mathway
+    url: https://www.mathway.com/zh/Algebra
+    favicon: mathway.png
+
+  - category: Game
+  - name: OP.GG
+    url: https://na.op.gg/
+    favicon: danbooru.png
+  - name: SteamDB
+    url: https://steamdb.info/
+    favicon: steamdb.png
+  - name: Humble
+    url: https://www.humblebundle.com/
+    favicon: humble.png
+
+  - category: Booru
+  - name: Danbooru
+    url: https://danbooru.donmai.us/
+    favicon: danbooru.png
+  - name: Gelbooru
+    url: https://gelbooru.com/
+    favicon: gelbooru.png
+  - name: Yande.re
+    url: https://yande.re/post
+    favicon: yandere.png
+  - name: SankakuComplex
+    url: https://chan.sankakucomplex.com/cn/post
+    favicon: sankakucomplex.png
+  - name: Konachan
+    url: https://konachan.com/post
+    favicon: konachan.png
+
+  - category: Unclassified
+  - name: Applist
+    url: https://github.com/coo11/Backup/blob/master/Markdown/AppList.md
+    favicon: github.png
+  - name: Userscript On Gist
+    url: https://gist.github.com/search?l=JavaScript&o=desc&q=%22%3D%3DUserScript%3D%3D%22&s=updated
+    favicon: github.png
+  - name: GreasyFork
+    url: https://greasyfork.org/zh-CN/scripts?filter_locale=0
+    favicon: greasyfork.png
+  - name: SleasyFork
+    url: https://sleazyfork.org/zh-CN/scripts?filter_locale=0
+    favicon: greasyfork.png
+  - name: IMDb
+    url: https://www.imdb.com/
+    favicon: imdb.png
+  - name: 聚BT
+    url: https://jubt.cf/cn/index.html#磁力搜索引擎
+  - name: 网盘搜索
+    url: https://adzhp.cn/wang-pan-sou-suo.html
+  - name: 天眼查
+    url: https://www.tianyancha.com/
+    favicon: tianyancha.png
+  - name: 企查查
+    url: https://www.qcc.com/
+    favicon: qichacha.png
+  - name: 西贴
+    url: http://www.xitie.com/
+  - name: 比一比价
+    url: http://b1bj.com/
+
+  - category: NSFW
+  - name: E-Hentai
+    url: https://e-hentai.org/
+    favicon: ehentai.png
+  - name: ExHentai
+    url: https://exhentai.org/
+    favicon: ehentai.png
+  - name: 绅士仓库
+    url: https://galacg.github.io/
+  - name: 茶馆
+    url: https://bbs.imoutolove.me/thread.php?fid-9.html
+  - name: 琉璃神社
+    url: https://acg.gy/
+  - name: HVDB
+    url: https://hvdb.me/Dashboard/
+  - name: エロ漫画作品のレビュー
+    url: https://adultcomic.dbsearch.net/
+  - name: 草榴社区
+    url: https://t66y.com/index.php
+    favicon: caoliu.png
+  - name: PornDude
+    url: https://theporndude.com/zh
+    favicon: porndude.png
+  - name: Nyaa
+    url: https://nyaa.si/
+    favicon: nyaa.png
+  - name: Sukebei
+    url: https://sukebei.nyaa.si/
+    favicon: nyaa.png
+  - name: Panda Backup
+    url: https://panda.chaika.moe/
+  - name: エロ漫画雑誌特殊性癖
+    url: http://www.sexloveero.net/wp/

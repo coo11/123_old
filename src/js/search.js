@@ -5,7 +5,7 @@
 
   document.addEventListener("keyup", handleGlobalKeyup);
   searchForm.addEventListener("submit", handleSearchFormSubmit);
-  searchInput.addEventListener("keyup", handleSearchInputKeyup);
+  searchInput.addEventListener("input", handleSearchInput);
 
   function handleGlobalKeyup(e) {
     if (
@@ -19,8 +19,8 @@
     let c = String.fromCharCode(e.keyCode).toLowerCase();
     if (c.match(/\w/)) {
       searchInput.focus();
-      searchInput.value = c;
-      handleSearchInputKeyup();
+      searchInput.value += c;
+      handleSearchInput();
     }
   }
 
@@ -32,7 +32,7 @@
     }
   }
 
-  function handleSearchInputKeyup() {
+  function handleSearchInput() {
     clearTabindex();
     clearFocus();
 

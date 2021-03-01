@@ -1,11 +1,11 @@
 title: coo11's personal front page
 
 images:
-  - http://tva2.sinaimg.cn/large/007HLCaply1g3txfml208j31hc0u0agm.jpg
-  - http://tva3.sinaimg.cn/large/007HLCaply1g6yyg0k3u6j315o0the1w.jpg
-  - http://tva4.sinaimg.cn/large/007HLCaply1g3txganifkj31hc0u07nc.jpg
-  - http://tva1.sinaimg.cn/large/007HLCaply1g3txg3ge70j31jk13a7ea.jpg
-  - http://tva1.sinaimg.cn/large/007HLCaply1g3txfykvg5j31jk0yq7bb.jpg
+  - https://tva2.sinaimg.cn/large/007HLCaply1g3txfml208j31hc0u0agm.jpg
+  - https://tva3.sinaimg.cn/large/007HLCaply1g6yyg0k3u6j315o0the1w.jpg
+  - https://tva4.sinaimg.cn/large/007HLCaply1g3txganifkj31hc0u07nc.jpg
+  - https://tva1.sinaimg.cn/large/007HLCaply1g3txg3ge70j31jk13a7ea.jpg
+  - https://tva1.sinaimg.cn/large/007HLCaply1g3txfykvg5j31jk0yq7bb.jpg
 
 bookmark:
   - name: Google
@@ -24,7 +24,7 @@ bookmark:
     url: https://zh.wikipedia.org/zh-hans/Wikipedia:%E9%A6%96%E9%A1%B5
     favicon: wiki.png
   - name: GitHub
-    url: https://github.com/coo11
+    url: https://github.com/
     favicon: github.png
   - name: Youtube
     url: https://www.youtube.com/
@@ -51,7 +51,7 @@ bookmark:
     url: https://www.pixiv.net/
     favicon: pixiv.png
 
-  - category: 社交网络
+  - category: SNS
   - name: 知乎
     url: https://www.zhihu.com/
     favicon: zhihu.png
@@ -68,7 +68,7 @@ bookmark:
     url: https://www.douyu.com/
     favicon: douyu.png
     
-  - category: 搜索
+  - category: Search
   - name: Twitter高级搜索
     url: https://twitter.com/search-advanced
     favicon: twitter.png
@@ -103,30 +103,8 @@ bookmark:
     favicon: ascii2d.png
   - name: WAIT
     url: https://trace.moe/
-
-  - category: ACG
-  - name: 天使动漫
-    url: https://www.tsdm39.net/forum.php
-  - name: 萌娘百科
-    url: https://segmentfault.com/
-  - name: 番组计划
-    url: https://bgm.tv/
-    favicon: bangumi.png
-  - name: 动漫花园
-    url: https://share.dmhy.org/
-    favicon: ruby-china.png
-  - name: AcFun
-    url: https://www.acfun.cn/
-    favicon: acfun.png
-  - name: 动漫之家
-    url: https://manhua.dmzj.com/
-  - name: 樱花动漫
-    url: http://www.imomoe.ai/
-    favicon: imomoe.png
-  - name: 爱恋动漫
-    url: http://www.kisssub.org/
   
-  - category: 社区
+  - category: Community
   - name: V2EX
     url: https://v2ex.com/
     favicon: v2ex.png
@@ -164,6 +142,28 @@ bookmark:
   - name: Amazon
     url: https://www.amazon.co.jp/
     favicon: amazon.png
+
+  - category: ACG
+  - name: 天使动漫
+    url: https://www.tsdm39.net/forum.php
+  - name: 萌娘百科
+    url: https://segmentfault.com/
+  - name: 番组计划
+    url: https://bgm.tv/
+    favicon: bangumi.png
+  - name: 动漫花园
+    url: https://share.dmhy.org/
+    favicon: ruby-china.png
+  - name: AcFun
+    url: https://www.acfun.cn/
+    favicon: acfun.png
+  - name: 动漫之家
+    url: https://manhua.dmzj.com/
+  - name: 樱花动漫
+    url: http://www.imomoe.ai/
+    favicon: imomoe.png
+  - name: 爱恋动漫
+    url: http://www.kisssub.org/
   
   - category: Dev
   - name: StackOverflow
@@ -298,7 +298,6 @@ bookmark:
   - category: Game
   - name: OP.GG
     url: https://na.op.gg/
-    favicon: danbooru.png
   - name: SteamDB
     url: https://steamdb.info/
     favicon: steamdb.png

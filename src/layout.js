@@ -16,6 +16,7 @@ module.exports = (config, cssIcons, cb) => {
       />
       <title>${config.title}</title>
       <link rel="shortcut icon" type="image/png" href="./favicon.ico" />
+      <link rel="apple-touch-icon" href="./apple-touch-icon.png">
       <link rel="stylesheet" href="./assets/mobi.css" />
       <link rel="stylesheet" href="./assets/site.css" />
       <script>
@@ -65,7 +66,10 @@ module.exports = (config, cssIcons, cb) => {
   function renderBookmark({ category, name, url, favicon }) {
     if (category) {
       return `
-        <li class="site-bookmark-li site-bookmark-category unit-1 top-gap text-muted text-small">${category}</li>
+        <li class="site-bookmark-li site-bookmark-category unit-1 top-gap text-muted text-small" id="${category.replace(
+          /\s/g,
+          ""
+        )}">${category}</li>
       `;
     }
     return `
@@ -92,9 +96,9 @@ module.exports = (config, cssIcons, cb) => {
     return `
       <footer class="text-center top-gap-big text-muted text-small">
         <hr/>
-        <p>${n} categories included. ${
+        <p>Modified by <a class="text-muted" href="https://github.com/coo11/123">coo11</a> & Forked from <a class="text-muted" href="https://github.com/xcatliu/123">xcatliu</a><br>${n} categories included & ${
       config.bookmark.length - n
-    } links in total. Forked from <a class="text-muted" href="https://github.com/xcatliu/123">xcatliu</a></p>
+    } links in total</p>
       </footer>
     `;
   }

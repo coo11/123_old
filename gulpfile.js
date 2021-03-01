@@ -74,7 +74,7 @@ function copyRestFiles(cb) {
     try {
       fs.unlinkSync("./dist/assets/sprite.json");
     } catch (e) {}
-    src("./src/favicon.ico").pipe(dest("dist"));
+    src(["./src/favicon.ico", "./src/apple-touch-icon.png"]).pipe(dest("dist"));
   });
   cb();
 }

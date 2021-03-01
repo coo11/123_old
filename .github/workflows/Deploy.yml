@@ -24,7 +24,7 @@ jobs:
             ${{ runner.os }}-node-
       - name: Install package
         run: |
-          npm install gulp-uglify gulp-clean gulp-clean-css gulp.spritesmith js-yaml pinyin
+          npm install
           npm run build
       - name: Deploy
         uses: crazy-max/ghaction-github-pages@v2

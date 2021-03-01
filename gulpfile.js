@@ -50,8 +50,10 @@ function cssMinify() {
     .pipe(dest("dist/assets"));
 }
 
-function cleanOutput() {
-  return src("dist", { read: false }).pipe(clean());
+function cleanOutput(cb) {
+  if (fs.existsSync("./dist"))
+    return src("dist", { read: false }).pipe(clean({ force: true }));
+  cb();
 }
 
 function newDir(cb) {

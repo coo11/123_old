@@ -1,11 +1,12 @@
 title: coo11's personal front page
 
 images:
-  - https://tva2.sinaimg.cn/large/007HLCaply1g3txfml208j31hc0u0agm.jpg
-  - https://tva3.sinaimg.cn/large/007HLCaply1g6yyg0k3u6j315o0the1w.jpg
-  - https://tva4.sinaimg.cn/large/007HLCaply1g3txganifkj31hc0u07nc.jpg
-  - https://tva1.sinaimg.cn/large/007HLCaply1g3txg3ge70j31jk13a7ea.jpg
-  - https://tva1.sinaimg.cn/large/007HLCaply1g3txfykvg5j31jk0yq7bb.jpg
+  # - https://tva2.sinaimg.cn/large/007HLCaply1g3txfml208j31hc0u0agm.jpg
+  # - https://tva3.sinaimg.cn/large/007HLCaply1g6yyg0k3u6j315o0the1w.jpg # 偶像大师
+  - https://tva4.sinaimg.cn/large/007HLCaply1g3txganifkj31hc0u07nc.jpg # Steins;Gate 0 CG
+  - https://tva1.sinaimg.cn/large/007HLCaply1g3txg3ge70j31jk13a7ea.jpg # 花の庭 #JK #Yuri
+  # - https://tva1.sinaimg.cn/large/007HLCaply1g3txfykvg5j31jk0yq7bb.jpg # 万象物语
+  - https://tva1.sinaimg.cn/large/be297bc5gy1gi8rdnnyomj21hc0tlnpd.jpg # 美食殿堂水着三人组
 
 bookmark:
   - name: Google
@@ -81,7 +82,7 @@ bookmark:
   - name: Google学术
     url: https://scholar.google.com/
     favicon: googlescolar.png
-  - name: Magi
+  - name: Mag[i]
     url: https://magi.com/
   - name: Yandex搜图
     url: https://yandex.com/images/
@@ -105,6 +106,9 @@ bookmark:
     url: https://trace.moe/
   
   - category: Community
+  - name: NGA
+    url: https://bbs.nga.cn/
+    favicon: nga.png
   - name: V2EX
     url: https://v2ex.com/
     favicon: v2ex.png
@@ -120,9 +124,6 @@ bookmark:
   - name: Steam
     url: https://steamcommunity.com/
     favicon: steam.png
-  - name: NGA
-    url: https://bbs.nga.cn/
-    favicon: nga.png
   - name: A岛匿名版
     url: https://adnmb.com/
   - name: ExcelHome
@@ -147,13 +148,12 @@ bookmark:
   - name: 天使动漫
     url: https://www.tsdm39.net/forum.php
   - name: 萌娘百科
-    url: https://segmentfault.com/
+    url: https://zh.moegirl.org.cn/Mainpage
   - name: 番组计划
     url: https://bgm.tv/
     favicon: bangumi.png
   - name: 动漫花园
     url: https://share.dmhy.org/
-    favicon: ruby-china.png
   - name: AcFun
     url: https://www.acfun.cn/
     favicon: acfun.png
@@ -176,7 +176,7 @@ bookmark:
     url: https://regexr.com/
     favicon: regexr.png
   - name: CodePen
-    url: https://codepen.io/
+    url: https://codepen.io/pen/
     favicon: codepen.png
   - name: Carbon
     url: https://carbon.now.sh/
@@ -253,7 +253,7 @@ bookmark:
     url: https://img.vim-cn.com/
   - name: P.SDA1.DEV
     url: https://p.sda1.dev/
-  - name: NiuPic
+  - name: 牛图网
     url: https://niupic.com/
   - name: ImgOps
     url: http://imgops.com/
@@ -265,6 +265,9 @@ bookmark:
   - name: iCloud
     url: https://www.icloud.com/
     favicon: icloud.png
+  - name: MEGA
+    url: https://mega.nz/fm/
+    favicon: mega.png
   - name: 蓝奏云
     url: https://www.lanzou.com/
     favicon: lanzou.png

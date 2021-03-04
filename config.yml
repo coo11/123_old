@@ -88,10 +88,10 @@ bookmark:
     url: https://yandex.com/images/
     favicon: yandeximage.png
   - name: Google搜图
-    url: https://juejin.im/
+    url: https://images.google.com/
     favicon: google.png
   - name: 百度识图
-    url: http://image.baidu.com/?fr=shitu
+    url: https://image.baidu.com/?fr=shitu
     favicon: baidu.png
   - name: IQDB
     url: https://iqdb.org/
@@ -131,7 +131,7 @@ bookmark:
   - name: 吾爱破解
     url: https://www.52pojie.cn/
   - name: 万能福利吧
-    url: https://fuliba2020.net/
+    url: https://lao4g.com/
 
   - category: Shopping
   - name: 京东
@@ -324,6 +324,9 @@ bookmark:
   - name: Konachan
     url: https://konachan.com/post
     favicon: konachan.png
+  - name: Rule34
+    url: https://rule34.xxx/
+    favicon: rule34.png
 
   - category: Unclassified
   - name: Applist

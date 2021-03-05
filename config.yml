@@ -180,10 +180,6 @@ bookmark:
     favicon: codepen.png
   - name: Carbon
     url: https://carbon.now.sh/
-  - name: SVGOMG
-    url: https://jakearchibald.github.io/svgomg/
-  - name: ScreenSizes
-    url: https://screensiz.es/
   - name: HTML2MD
     url: https://tool.lu/markdown/
   - name: musicForProgramming
@@ -192,9 +188,8 @@ bookmark:
   - name: Coding
     url: https://coding.net/
     favicon: coding.png
-  - name: iconfont
-    url: https://www.iconfont.cn/
-    favicon: iconfont.png
+  - name: Popular Blocks
+    url: https://bl.ocks.org/
 
   - category: Utils
   - name: GoogleVoice
@@ -219,6 +214,9 @@ bookmark:
   - name: Sketchpad
     url: https://sketch.io/sketchpad/?lang=zh
     favicon: sketchpad.png
+  - name: nicozon
+    url: https://www.nicozon.net/
+    favicon: nicozon.png
   - name: PaperSizes
     url: https://papersizes.io/
     favicon: papersizes.png

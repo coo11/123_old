@@ -60,7 +60,7 @@ bookmark:
     url: https://twitter.com/
     favicon: twitter.png
   - name: 微博
-    url: http://weibo.com/xcatliu/home
+    url: https://weibo.com/
     favicon: weibo.png
   - name: 虎牙
     url: https://www.huya.com/
@@ -150,7 +150,7 @@ bookmark:
   - name: 萌娘百科
     url: https://zh.moegirl.org.cn/Mainpage
   - name: 番组计划
-    url: https://bgm.tv/
+    url: https://bgm.tv/group/a
     favicon: bangumi.png
   - name: 动漫花园
     url: https://share.dmhy.org/
@@ -163,7 +163,7 @@ bookmark:
     url: http://www.imomoe.ai/
     favicon: imomoe.png
   - name: 爱恋动漫
-    url: http://www.kisssub.org/
+    url: https://www.kisssub.org/
   
   - category: Dev
   - name: StackOverflow
@@ -254,7 +254,7 @@ bookmark:
   - name: 牛图网
     url: https://niupic.com/
   - name: ImgOps
-    url: http://imgops.com/
+    url: https://imgops.com/
     favicon: imgops.png
   - name: 动图基地
     url: https://www.asqql.com/g/
@@ -275,8 +275,6 @@ bookmark:
   - name: FilePizza
     url: https://file.pizza/
     favicon: filepizza.png
-  - name: Litterbox
-    url: https://litterbox.catbox.moe/
   - name: 印象笔记
     url: https://www.yinxiang.com/
     favicon: yinxiang.png
@@ -313,7 +311,7 @@ bookmark:
   - name: Gelbooru
     url: https://gelbooru.com/
     favicon: gelbooru.png
-  - name: Yande.re
+  - name: yande.re
     url: https://yande.re/post
     favicon: yandere.png
   - name: SankakuComplex
@@ -366,13 +364,13 @@ bookmark:
     favicon: ehentai.png
   - name: 绅士仓库
     url: https://galacg.github.io/
-  - name: 茶馆
+  - name: 茶馆🍵
     url: https://bbs.imoutolove.me/thread.php?fid-9.html
-  - name: 琉璃神社
+  - name: 琉璃神社⛩
     url: https://acg.gy/
   - name: HVDB
     url: https://hvdb.me/Dashboard/
-  - name: エロ漫画作品のレビュー
+  - name: ＭＡＮＧＡ－ＤＢ
     url: https://adultcomic.dbsearch.net/
   - name: 草榴社区
     url: https://t66y.com/index.php
@@ -385,8 +383,8 @@ bookmark:
     favicon: nyaa.png
   - name: Sukebei
     url: https://sukebei.nyaa.si/
-    favicon: nyaa.png
-  - name: Panda Backup
+    favicon: nyaa.png 
+  - name: 🐼Panda Backup
     url: https://panda.chaika.moe/
   - name: エロ漫画雑誌特殊性癖
     url: http://www.sexloveero.net/wp/

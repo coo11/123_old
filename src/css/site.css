@@ -25,15 +25,15 @@
 
 .site-bookmark-a:hover,
 .site-bookmark-a:focus,
-.site-bookmark-a-focus {
+.site-bookmark-div-focus {
   opacity: 1;
   text-decoration: none;
-  background-color: #f2f2f2;
+  filter: drop-shadow(2px 2px 3px #888);
 }
 
 .site-bookmark-a:focus,
 .site-bookmark-a-focus {
-  outline: 3px auto #2680d9;
+  outline: none;
 }
 
 .site-bookmark-a:focus ~ .site-bookmark-a-focus {

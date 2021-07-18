@@ -72,22 +72,19 @@ module.exports = (config, cb) => {
         )}">${category}</li>
       `;
     }
+    if (favicon) favicon = favicon.slice(0, -4).toLowerCase();
+    else favicon = "";
     return `
       <li
         class="site-bookmark-li unit-0"
-        data-name="${addPinyin(name).toLowerCase()}"
+        data-name="${addPinyin(name.toLowerCase(), favicon)}"
       >
         <a href="${url}" class="site-bookmark-a flex-middle" tabindex="9">
-          ${renderIcon(favicon)}<span>${name}</span>
+          ${favicon ? '<div class="site-bookmark-div"></div>' : ""}
+          <span>${name}</span>
         </a>
       </li>
     `;
-  }
-
-  function renderIcon(name) {
-    if (!name) return "";
-    name = name.slice(0, -4);
-    return `<div class="site-bookmark-div"></div>\n`;
   }
 
   function renderFooter() {
@@ -103,16 +100,12 @@ module.exports = (config, cb) => {
   }
 };
 
-function addPinyin(str) {
-  if (!CHINESE.test(str)) {
-    return str;
+function addPinyin(name, fav) {
+  if (!CHINESE.test(name)) {
+    return name === fav ? name : `${name} ${fav}`;
   }
-
-  return (
-    str +
-    " " +
-    pinyin(str, {
-      style: pinyin.STYLE_NORMAL, // 普通风格，即不带音标。
-    }).join("")
-  );
+  const py = pinyin(name, {
+    style: pinyin.STYLE_NORMAL, // 普通风格，即不带音标。
+  }).join("");
+  return py === fav ? `${name} ${py}` : `${name} ${fav} ${py}`;
 }

@@ -21,9 +21,13 @@ bookmark:
   - name: Outlook
     url: https://outlook.live.com/mail/0/inbox
     favicon: outlook.png
-  - name: 谷歌地图
-    url: https://www.google.com/maps/
-    favicon: googlemap.png
+  - name: ImageRepo
+    url: https://coo11.github.io/gir/
+    favicon: gir.png
+  # - name: Google Earth
+  #   url: https://earth.google.com/web/
+  # - name: Google Maps
+  #   url: https://www.google.com/maps/
   # - name: YandexMail
   #   url: https://mail.yandex.com/
   - name: Wikipedia
@@ -71,6 +75,9 @@ bookmark:
   - name: 斗鱼
     url: https://www.douyu.com/
     favicon: douyu.png
+  - name: Twitch
+    url: https://www.twitch.tv/
+    favicon: twitch.png
     
   - category: Search
   - name: Twitter高级搜索
@@ -122,22 +129,19 @@ bookmark:
   #   url: https://www.4chan.org/
   # - name: Два.ч
   #   url: https://2ch.hk/
-  - name: Twitch
-    url: https://www.twitch.tv/
-    favicon: twitch.png
   - name: Steam
     url: https://steamcommunity.com/
     favicon: steam.png
-  - name: 远景论坛
+  - name: PCbeta
     url: http://bbs.pcbeta.com/forum.php
     favicon: pcbeta.png
-  - name: A岛匿名版
+  - name: A岛
     url: https://adnmb.com/
-  - name: ExcelHome
-    url: http://club.excelhome.net/forum.php
+  # - name: ExcelHome
+  #   url: http://club.excelhome.net/forum.php
   - name: 吾爱破解
     url: https://www.52pojie.cn/
-  - name: 万能福利吧
+  - name: 福利吧
     url: https://lao4g.com/
 
   - category: Shopping
@@ -166,9 +170,9 @@ bookmark:
     favicon: acfun.png
   - name: 动漫之家
     url: https://manhua.dmzj.com/
-  - name: 樱花动漫
-    url: http://www.imomoe.ai/
-    favicon: imomoe.png
+  # - name: 樱花动漫
+  #   url: http://www.imomoe.ai/
+  #   favicon: imomoe.png
   - name: 爱恋动漫
     url: https://www.kisssub.org/
   
@@ -223,7 +227,8 @@ bookmark:
   - name: Dropmail
     url: https://dropmail.me/zh/
   - name: AriaNg
-    url: http://ariang.mayswind.net/latest
+    # url: http://ariang.mayswind.net/latest
+    url: http://p3terx.gitee.io/ariang/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
   - name: Sketchpad
     url: https://sketch.io/sketchpad/?lang=zh
     favicon: sketchpad.png
@@ -260,16 +265,6 @@ bookmark:
   - name: EZGIF
     url: https://ezgif.com/
     favicon: pic.png
-  - name: Elimage
-    url: https://img.vim-cn.com/
-  - name: P.SDA1.DEV
-    url: https://p.sda1.dev/
-  - name: NIUPIC
-    url: https://niupic.com/
-  - name: 聚合 - KIENG图床
-    url: https://image.kieng.cn/
-  - name: 聚合 - 遇见图床
-    url: https://www.hualigs.cn/
   - name: ImgOps
     url: https://imgops.com/
     favicon: imgops.png
@@ -286,15 +281,15 @@ bookmark:
   - name: 蓝奏云
     url: https://www.lanzou.com/
     favicon: lanzou.png
-  - name: Cloudflare Wokers
+  - name: CF Wokers
     url: https://workers.cloudflare.com/
     favicon: cloudflare.png
   - name: FilePizza
     url: https://file.pizza/
     favicon: filepizza.png
-  - name: 印象笔记
-    url: https://www.yinxiang.com/
-    favicon: yinxiang.png
+  - name: Notion
+    url: https://www.notion.so/
+    favicon: notion.png
 
   - category: Calc
   - name: NumberEmpire
@@ -331,7 +326,7 @@ bookmark:
   - name: yande.re
     url: https://yande.re/post
     favicon: yandere.png
-  - name: SankakuComplex
+  - name: Sankaku
     url: https://chan.sankakucomplex.com/cn/post
     favicon: sankakucomplex.png
   - name: Konachan
@@ -387,8 +382,10 @@ bookmark:
     url: https://bbs.imoutolove.me/thread.php?fid-9.html
   - name: 琉璃神社⛩
     url: https://acg.gy/
-  - name: HVDB
-    url: https://hvdb.me/Dashboard/
+  - name: hanime.tv
+    url: https://hanime.tv/
+  # - name: HVDB
+  #   url: https://hvdb.me/Dashboard/
   - name: ＭＡＮＧＡ－ＤＢ
     url: https://adultcomic.dbsearch.net/
   - name: 草榴社区

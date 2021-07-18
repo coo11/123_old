@@ -5,7 +5,8 @@ const { series, parallel, src, dest } = require("gulp"),
   clean = require("gulp-clean"),
   harvest = require("./src/harvest.js"),
   layout = require("./src/layout.js"),
-  fs = require("fs");
+  fs = require("fs"),
+  siteCss = fs.readFileSync("./src/css/site.css", "utf8");
 
 function initData(cb) {
   harvest.init();
@@ -19,22 +20,22 @@ function sprite(cb) {
     .pipe(
       spritesmith({
         imgName: "sprite.png", // merged name
-        cssName: "sprite.json",
+        cssName: "site.css",
         padding: 2, // default 0px
         cssTemplate: data => {
-          let obj = {},
+          let str = siteCss,
             w = data.spritesheet.width,
-            h = data.spritesheet.height,
-            url = `./assets/${data.spritesheet.image}`;
-          //console.log(data)
+            h = data.spritesheet.height;
           data.sprites.forEach(({ name, offset_x, offset_y, width }) => {
             const r = width / 16;
-            obj[name] = `background: url('${url}') no-repeat ${
-              offset_x / r
-            }px ${offset_y / r}px; background-size: ${w / r}px ${h / r}px;`;
+            /* prettier-ignore */
+            str += `\n[data-name*="${name}"] .site-bookmark-div {
+  background: url(${data.spritesheet.image}) no-repeat ${offset_x / r}px ${offset_y / r}px;
+  background-size: ${w / r}px ${h / r}px;
+}`;
           });
-          return JSON.stringify(obj);
-        }
+          return str;
+        },
       })
     )
     .pipe(dest("dist/assets/"));
@@ -45,7 +46,7 @@ function jsUglify() {
 }
 
 function cssMinify() {
-  return src("src/css/*.css")
+  return src(["./dist/assets/site.css", "./src/css/mobi.css"])
     .pipe(cleanCSS({ compatibility: "ie8" }))
     .pipe(dest("dist/assets"));
 }
@@ -62,18 +63,9 @@ function newDir(cb) {
   cb();
 }
 
-function copyRestFiles(cb) {
-  let cssIcons = {};
-  try {
-    cssIcons = JSON.parse(fs.readFileSync("./dist/assets/sprite.json", "utf8"));
-  } catch (e) {
-    console.log("Sprite NOT Found.");
-  }
-  layout(harvest.config, cssIcons, html => {
+function copyFiles(cb) {
+  layout(harvest.config, html => {
     fs.writeFileSync("./dist/index.html", html);
-    try {
-      fs.unlinkSync("./dist/assets/sprite.json");
-    } catch (e) {}
     src(["./src/favicon.ico", "./src/apple-touch-icon.png"]).pipe(dest("dist"));
   });
   cb();
@@ -95,6 +87,6 @@ exports.build = series(
   newDir,
   initData,
   sprite,
-  parallel(jsUglify, cssMinify),
-  copyRestFiles
+  copyFiles,
+  parallel(jsUglify, cssMinify)
 );

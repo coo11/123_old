@@ -2,7 +2,7 @@ const pinyin = require("pinyin");
 
 const CHINESE = /[\u4e00-\u9fa5]/;
 
-module.exports = (config, cssIcons, cb) => {
+module.exports = (config, cb) => {
   cb(`
   <!DOCTYPE html>
   <html lang="en">
@@ -87,8 +87,7 @@ module.exports = (config, cssIcons, cb) => {
   function renderIcon(name) {
     if (!name) return "";
     name = name.slice(0, -4);
-    if (!cssIcons[name]) return "";
-    return `<div class="site-bookmark-div" style="${cssIcons[name]}"></div>\n`;
+    return `<div class="site-bookmark-div"></div>\n`;
   }
 
   function renderFooter() {
@@ -113,7 +112,7 @@ function addPinyin(str) {
     str +
     " " +
     pinyin(str, {
-      style: pinyin.STYLE_NORMAL // 普通风格，即不带音标。
+      style: pinyin.STYLE_NORMAL, // 普通风格，即不带音标。
     }).join("")
   );
 }

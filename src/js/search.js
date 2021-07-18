@@ -14,14 +14,15 @@
       e.metaKey ||
       document.activeElement === searchInput
     ) {
+      e.key === "Escape" && searchInput.blur();
       return;
     }
     let c = String.fromCharCode(e.keyCode).toLowerCase();
     if (c.match(/\w/)) {
       searchInput.focus();
       searchInput.value += c;
-      handleSearchInput();
     }
+    handleSearchInput();
   }
 
   function handleSearchFormSubmit(e) {

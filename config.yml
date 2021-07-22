@@ -1,4 +1,4 @@
-title: coo11's personal front page
+title: coo11's front page
 
 images:
   # - https://tva2.sinaimg.cn/large/007HLCaply1g3txfml208j31hc0u0agm.jpg
@@ -21,21 +21,21 @@ bookmark:
   - name: Outlook
     url: https://outlook.live.com/mail/0/inbox
     favicon: outlook.png
-  - name: ImageRepo
-    url: https://coo11.github.io/gir/
-    favicon: gir.png
   # - name: Google Earth
   #   url: https://earth.google.com/web/
   # - name: Google Maps
   #   url: https://www.google.com/maps/
   # - name: YandexMail
   #   url: https://mail.yandex.com/
-  - name: Wikipedia
-    url: https://zh.wikipedia.org/zh-hans/Wikipedia:%E9%A6%96%E9%A1%B5
-    favicon: wiki.png
   - name: GitHub
     url: https://github.com/
     favicon: github.png
+  - name: Wikipedia
+    url: https://zh.wikipedia.org/zh-hans/Wikipedia:%E9%A6%96%E9%A1%B5
+    favicon: wiki.png
+  - name: Notion
+    url: https://www.notion.so/
+    favicon: notion.png
   - name: Youtube
     url: https://www.youtube.com/
     favicon: youtube.png
@@ -44,7 +44,7 @@ bookmark:
     favicon: bilibili.png
   - name: Telegram
     url: https://webz.telegram.org/
-  #   url: https://webk.telegram.org/
+    #   url: https://webk.telegram.org/
     favicon: telegram.png
   - name: 坚果云
     url: https://www.jianguoyun.com/
@@ -55,9 +55,9 @@ bookmark:
   - name: DeepL
     url: https://www.deepl.com/translator
     favicon: deepl.png
-  - name: Pixiv
-    url: https://www.pixiv.net/
-    favicon: pixiv.png
+  - name: GIR
+    url: https://coo11.github.io/gir/
+    favicon: gir.png
 
   - category: SNS
   - name: 知乎
@@ -78,7 +78,7 @@ bookmark:
   - name: Twitch
     url: https://www.twitch.tv/
     favicon: twitch.png
-    
+
   - category: Search
   - name: Twitter高级搜索
     url: https://twitter.com/search-advanced
@@ -114,7 +114,7 @@ bookmark:
     favicon: ascii2d.png
   - name: WAIT
     url: https://trace.moe/
-  
+
   - category: Community
   - name: NGA
     url: https://bbs.nga.cn/
@@ -175,7 +175,10 @@ bookmark:
   #   favicon: imomoe.png
   - name: 爱恋动漫
     url: https://www.kisssub.org/
-  
+  - name: Pixiv
+    url: https://www.pixiv.net/
+    favicon: pixiv.png
+
   - category: Dev
   - name: StackOverflow
     url: https://stackoverflow.com/
@@ -202,8 +205,8 @@ bookmark:
   - name: gitee
     url: https://gitee.com/
     favicon: gitee.png
-  - name: Popular Blocks
-    url: https://bl.ocks.org/
+  # - name: Popular Blocks
+  #   url: https://bl.ocks.org/
 
   - category: Utils
   - name: GoogleVoice
@@ -287,24 +290,6 @@ bookmark:
   - name: FilePizza
     url: https://file.pizza/
     favicon: filepizza.png
-  - name: Notion
-    url: https://www.notion.so/
-    favicon: notion.png
-
-  - category: Calc
-  - name: NumberEmpire
-    url: https://zh.numberempire.com/
-  - name: MathStudio
-    url: http://mathstud.io/
-    favicon: mathstudio.png
-  - name: Desmos
-    url: https://www.desmos.com/calculator?lang=zh-CN
-    favicon: desmos.png
-    # Alternative
-    # https://www.geogebra.org/graphing
-  - name: Mathway
-    url: https://www.mathway.com/zh/Algebra
-    favicon: mathway.png
 
   - category: Game
   - name: OP.GG
@@ -332,9 +317,21 @@ bookmark:
   - name: Konachan
     url: https://konachan.com/post
     favicon: konachan.png
-  - name: Rule34
-    url: https://rule34.xxx/
-    favicon: rule34.png
+
+  - category: Calc
+  - name: NumberEmpire
+    url: https://zh.numberempire.com/
+  - name: MathStudio
+    url: http://mathstud.io/
+    favicon: mathstudio.png
+  - name: Desmos
+    url: https://www.desmos.com/calculator?lang=zh-CN
+    favicon: desmos.png
+    # Alternative
+    # https://www.geogebra.org/graphing
+  - name: Mathway
+    url: https://www.mathway.com/zh/Algebra
+    favicon: mathway.png
 
   - category: Unclassified
   - name: Applist
@@ -394,12 +391,12 @@ bookmark:
   - name: PornDude
     url: https://theporndude.com/zh
     favicon: porndude.png
-  - name: Nyaa
-    url: https://nyaa.si/
-    favicon: nyaa.png
+  # - name: Nyaa
+  #   url: https://nyaa.si/
+  #   favicon: nyaa.png
   - name: Sukebei
     url: https://sukebei.nyaa.si/
-    favicon: nyaa.png 
+    favicon: nyaa.png
   - name: 🐼Panda Backup
     url: https://panda.chaika.moe/
   - name: エロ漫画雑誌特殊性癖

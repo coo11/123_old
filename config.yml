@@ -251,7 +251,7 @@ bookmark:
     url: https://www.ilovepdf.com/zh-cn
     favicon: ilovepdf.png
 
-  - category: Image Utils
+  - category: Image
   - name: PixFix
     url: https://zh.pixfix.com/
     favicon: pixfix.png
@@ -267,10 +267,12 @@ bookmark:
     favicon: pic.png
   - name: EZGIF
     url: https://ezgif.com/
-    favicon: pic.png
   - name: ImgOps
     url: https://imgops.com/
     favicon: imgops.png
+  - name: Unsplash
+    url: https://unsplash.com/
+    favicon: unsplash.png
   - name: 动图基地
     url: https://www.asqql.com/g/
 
@@ -290,6 +292,12 @@ bookmark:
   - name: FilePizza
     url: https://file.pizza/
     favicon: filepizza.png
+  - name: GDrive
+    url: https://drive.google.com/drive/my-drive
+    favicon: gdrive.png
+  - name: OneDrive
+    url: https://onedrive.live.com/
+    favicon: onedrive.png
 
   - category: Game
   - name: OP.GG

@@ -151,6 +151,9 @@ bookmark:
   - name: 淘宝
     url: https://search.taobao.com/
     favicon: taobao.png
+  - name: 1688
+    url: https://search.1688.com/
+    favicon: 1688.png
   - name: Amazon
     url: https://www.amazon.co.jp/
     favicon: amazon.png
@@ -207,6 +210,8 @@ bookmark:
     favicon: gitee.png
   # - name: Popular Blocks
   #   url: https://bl.ocks.org/
+  - name: 全栈公开课
+    url: https://fullstackopen.com/zh/
 
   - category: Utils
   - name: GoogleVoice
@@ -387,8 +392,14 @@ bookmark:
     url: https://bbs.imoutolove.me/thread.php?fid-9.html
   - name: 琉璃神社⛩
     url: https://acg.gy/
-  - name: hanime.tv
-    url: https://hanime.tv/
+  - name: 紳士の庭🎩
+    url: https://gmgard.com/
+  - name: Sukebei
+    url: https://sukebei.nyaa.si/
+    favicon: nyaa.png
+  # - name: Nyaa
+  #   url: https://nyaa.si/
+  #   favicon: nyaa.png
   # - name: HVDB
   #   url: https://hvdb.me/Dashboard/
   - name: ＭＡＮＧＡ－ＤＢ
@@ -399,13 +410,9 @@ bookmark:
   - name: PornDude
     url: https://theporndude.com/zh
     favicon: porndude.png
-  # - name: Nyaa
-  #   url: https://nyaa.si/
-  #   favicon: nyaa.png
-  - name: Sukebei
-    url: https://sukebei.nyaa.si/
-    favicon: nyaa.png
   - name: 🐼Panda Backup
     url: https://panda.chaika.moe/
   - name: エロ漫画雑誌特殊性癖
     url: http://www.sexloveero.net/wp/
+  # - name: hanime.tv
+  #   url: https://hanime.tv/

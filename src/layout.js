@@ -77,7 +77,7 @@ module.exports = (config, cb) => {
     return `
       <li
         class="site-bookmark-li unit-0"
-        data-name="${addPinyin(name.toLowerCase(), favicon)}"
+        data-name="${addPinyin(String(name).toLowerCase(), favicon)}"
       >
         <a href="${url}" class="site-bookmark-a flex-middle" tabindex="9">
           ${favicon ? '<div class="site-bookmark-div"></div>' : ""}

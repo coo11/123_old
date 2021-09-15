@@ -59,6 +59,19 @@ bookmark:
     url: https://coo11.github.io/gir/
     favicon: gir.png
 
+  - category: Shortcut
+  - name: Rentry.co
+    url: https://rentry.co/
+    favicon: rentryco.png
+  - name: Telegraph
+    url: https://telegra.ph/
+    favicon: telegraph.png
+  - name: Dropmail
+    url: https://dropmail.me/zh/
+  - name: FilePizza
+    url: https://file.pizza/
+    favicon: filepizza.png
+
   - category: SNS
   - name: 知乎
     url: https://www.zhihu.com/
@@ -144,20 +157,6 @@ bookmark:
   - name: 福利吧
     url: https://lao4g.com/
 
-  - category: Shopping
-  - name: 京东
-    url: https://search.jd.com/
-    favicon: jingdong.png
-  - name: 淘宝
-    url: https://search.taobao.com/
-    favicon: taobao.png
-  - name: 1688
-    url: https://search.1688.com/
-    favicon: 1688.png
-  - name: Amazon
-    url: https://www.amazon.co.jp/
-    favicon: amazon.png
-
   - category: ACG
   - name: 天使动漫
     url: https://www.tsdm39.net/forum.php
@@ -232,8 +231,6 @@ bookmark:
     url: https://archive.org/web/
   - name: Archive.today
     url: https://archive.is/
-  - name: Dropmail
-    url: https://dropmail.me/zh/
   - name: AriaNg
     # url: http://ariang.mayswind.net/latest
     url: http://p3terx.gitee.io/ariang/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
@@ -255,6 +252,20 @@ bookmark:
   - name: iLovePDF
     url: https://www.ilovepdf.com/zh-cn
     favicon: ilovepdf.png
+
+  - category: Shopping
+  - name: 京东
+    url: https://search.jd.com/
+    favicon: jingdong.png
+  - name: 淘宝
+    url: https://search.taobao.com/
+    favicon: taobao.png
+  - name: 1688
+    url: https://search.1688.com/
+    favicon: 1688.png
+  - name: Amazon
+    url: https://www.amazon.co.jp/
+    favicon: amazon.png
 
   - category: Image
   - name: PixFix
@@ -294,25 +305,15 @@ bookmark:
   - name: CF Wokers
     url: https://workers.cloudflare.com/
     favicon: cloudflare.png
-  - name: FilePizza
-    url: https://file.pizza/
-    favicon: filepizza.png
+  - name: Apps Script
+    url: https://script.google.com/home
+    favicon: appsscript.png
   - name: GDrive
     url: https://drive.google.com/drive/my-drive
     favicon: gdrive.png
   - name: OneDrive
     url: https://onedrive.live.com/
     favicon: onedrive.png
-
-  - category: Game
-  - name: OP.GG
-    url: https://na.op.gg/
-  - name: SteamDB
-    url: https://steamdb.info/
-    favicon: steamdb.png
-  - name: Humble
-    url: https://www.humblebundle.com/
-    favicon: humble.png
 
   - category: Booru
   - name: Danbooru
@@ -378,6 +379,12 @@ bookmark:
     url: http://www.xitie.com/
   - name: 比一比价
     url: http://b1bj.com/
+  - name: SteamDB
+    url: https://steamdb.info/
+    favicon: steamdb.png
+  - name: Humble
+    url: https://www.humblebundle.com/
+    favicon: humble.png
 
   - category: NSFW
   - name: E-Hentai

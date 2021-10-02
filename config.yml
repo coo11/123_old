@@ -43,8 +43,8 @@ bookmark:
     url: https://www.bilibili.com/
     favicon: bilibili.png
   - name: Telegram
-    url: https://webz.telegram.org/
-    #   url: https://webk.telegram.org/
+    url: https://web.telegram.org/k/
+    #   url: https://web.telegram.org/z/
     favicon: telegram.png
   - name: 坚果云
     url: https://www.jianguoyun.com/
@@ -66,11 +66,8 @@ bookmark:
   - name: Telegraph
     url: https://telegra.ph/
     favicon: telegraph.png
-  - name: Dropmail
-    url: https://dropmail.me/zh/
-  - name: FilePizza
-    url: https://file.pizza/
-    favicon: filepizza.png
+  - name: <b>fast pass, BT search & image host</b>
+    url: https://rentry.co/webservice
 
   - category: SNS
   - name: 知乎
@@ -107,6 +104,9 @@ bookmark:
     favicon: googlescolar.png
   - name: Mag[i]
     url: https://magi.com/
+  - name: WolframAlpha
+    url: https://www.wolframalpha.com/
+    favicon: wolframalpha.png
   - name: Yandex搜图
     url: https://yandex.com/images/
     favicon: yandeximage.png
@@ -116,9 +116,9 @@ bookmark:
   - name: 百度识图
     url: https://image.baidu.com/?fr=shitu
     favicon: baidu.png
-  - name: IQDB
-    url: https://iqdb.org/
-    favicon: iqdb.png
+  # - name: IQDB
+  #   url: https://iqdb.org/
+  #   favicon: iqdb.png
   - name: SauceNAO
     url: https://saucenao.com/
     favicon: saucenao.png
@@ -150,6 +150,8 @@ bookmark:
     favicon: pcbeta.png
   - name: A岛
     url: https://adnmb.com/
+  - name: Stage1
+    url: https://bbs.saraba1st.com/2b/forum.php
   # - name: ExcelHome
   #   url: http://club.excelhome.net/forum.php
   - name: 吾爱破解
@@ -209,7 +211,7 @@ bookmark:
     favicon: gitee.png
   # - name: Popular Blocks
   #   url: https://bl.ocks.org/
-  - name: 全栈公开课
+  - name: FullStackOpen
     url: https://fullstackopen.com/zh/
 
   - category: Utils
@@ -225,6 +227,8 @@ bookmark:
   - name: UnicodeTable
     url: https://unicode-table.com/cn/
     favicon: unicodetable.png
+  - name: Dropmail
+    url: https://dropmail.me/zh/
   - name: TableConvert
     url: https://tableconvert.com/
   - name: InternetArchive
@@ -349,7 +353,10 @@ bookmark:
 
   - category: Unclassified
   - name: Applist
-    url: https://github.com/coo11/Backup/blob/master/Markdown/AppList.md
+    url: https://rentry.co/applist
+    favicon: rentryco.png
+  - name: Github✋⭐
+    url: https://rentry.co/githubnostar
     favicon: github.png
   - name: Userscript On Gist
     url: https://gist.github.com/search?l=JavaScript&o=desc&q=%22%3D%3DUserScript%3D%3D%22&s=updated
@@ -363,12 +370,8 @@ bookmark:
   - name: IMDb
     url: https://www.imdb.com/
     favicon: imdb.png
-  - name: 聚BT
-    url: https://jubt.cf/cn/index.html#磁力搜索引擎
   - name: 网盘搜索
     url: https://adzhp.cn/wang-pan-sou-suo.html
-  - name: 🇨🇳法律法规数据库
-    url: https://flk.npc.gov.cn/
   - name: 天眼查
     url: https://www.tianyancha.com/
     favicon: tianyancha.png

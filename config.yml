@@ -358,15 +358,6 @@ bookmark:
   - name: Github✋⭐
     url: https://rentry.co/githubnostar
     favicon: github.png
-  - name: Userscript On Gist
-    url: https://gist.github.com/search?l=JavaScript&o=desc&q=%22%3D%3DUserScript%3D%3D%22&s=updated
-    favicon: github.png
-  - name: GreasyFork
-    url: https://greasyfork.org/zh-CN/scripts?filter_locale=0
-    favicon: greasyfork.png
-  - name: SleasyFork
-    url: https://sleazyfork.org/zh-CN/scripts?filter_locale=0
-    favicon: greasyfork.png
   - name: IMDb
     url: https://www.imdb.com/
     favicon: imdb.png

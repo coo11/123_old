@@ -174,14 +174,13 @@ bookmark:
     favicon: acfun.png
   - name: 动漫之家
     url: https://manhua.dmzj.com/
-  # - name: 樱花动漫
-  #   url: http://www.imomoe.ai/
-  #   favicon: imomoe.png
-  - name: 爱恋动漫
-    url: https://www.kisssub.org/
+  # - name: 爱恋动漫
+  #   url: https://www.kisssub.org/
   - name: Pixiv
     url: https://www.pixiv.net/
     favicon: pixiv.png
+  - name: <b>More....</b>
+    url: https://rentry.co/acg
 
   - category: Dev
   - name: StackOverflow
@@ -241,9 +240,6 @@ bookmark:
   - name: Sketchpad
     url: https://sketch.io/sketchpad/?lang=zh
     favicon: sketchpad.png
-  - name: nicozon
-    url: https://www.nicozon.net/
-    favicon: nicozon.png
   - name: PaperSizes
     url: https://papersizes.io/
     favicon: papersizes.png
@@ -380,40 +376,36 @@ bookmark:
     url: https://www.humblebundle.com/
     favicon: humble.png
 
-  - category: NSFW
-  - name: E-Hentai
-    url: https://e-hentai.org/
-    favicon: ehentai.png
-  - name: ExHentai
-    url: https://exhentai.org/
-    favicon: ehentai.png
-  - name: 绅士仓库
-    url: https://galacg.github.io/
-  - name: 茶馆🍵
-    url: https://bbs.imoutolove.me/thread.php?fid-9.html
-  - name: 琉璃神社⛩
-    url: https://acg.gy/
-  - name: 紳士の庭🎩
-    url: https://gmgard.com/
-  - name: Sukebei
-    url: https://sukebei.nyaa.si/
-    favicon: nyaa.png
+  # - category: NSFW
+  # - name: E-Hentai
+  #   url: https://e-hentai.org/
+  #   favicon: ehentai.png
+  # - name: ExHentai
+  #   url: https://exhentai.org/
+  #   favicon: ehentai.png
+  # - name: 绅士仓库
+  #   url: https://galacg.github.io/
+  # - name: 茶馆🍵
+  #   url: https://bbs.imoutolove.me/thread.php?fid-9.html
+  # - name: 琉璃神社⛩
+  #   url: https://acg.gy/
+  # - name: 紳士の庭🎩
+  #   url: https://gmgard.com/
+  # - name: Sukebei
+  #   url: https://sukebei.nyaa.si/
+  #   favicon: nyaa.png
   # - name: Nyaa
   #   url: https://nyaa.si/
   #   favicon: nyaa.png
   # - name: HVDB
   #   url: https://hvdb.me/Dashboard/
-  - name: ＭＡＮＧＡ－ＤＢ
-    url: https://adultcomic.dbsearch.net/
-  - name: 草榴社区
-    url: https://t66y.com/index.php
-    favicon: caoliu.png
-  - name: PornDude
-    url: https://theporndude.com/zh
-    favicon: porndude.png
-  - name: 🐼Panda Backup
-    url: https://panda.chaika.moe/
-  - name: エロ漫画雑誌特殊性癖
-    url: http://www.sexloveero.net/wp/
-  # - name: hanime.tv
-  #   url: https://hanime.tv/
+  # - name: ＭＡＮＧＡ－ＤＢ
+  #   url: https://adultcomic.dbsearch.net/
+  # - name: 🐼Panda Backup
+  #   url: https://panda.chaika.moe/
+  # - name: 草榴社区
+  #   url: https://t66y.com/index.php
+  #   favicon: caoliu.png
+  # - name: PornDude
+  #   url: https://theporndude.com/zh
+  #   favicon: porndude.png

@@ -351,6 +351,9 @@ bookmark:
   - name: Applist
     url: https://rentry.co/applist
     favicon: rentryco.png
+  - name: NoUse
+    url: https://rentry.co/sitenouse
+    favicon: rentryco.png
   - name: Github✋⭐
     url: https://rentry.co/githubnostar
     favicon: github.png

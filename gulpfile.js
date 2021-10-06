@@ -47,7 +47,8 @@ function jsUglify() {
 
 function cssMinify() {
   return src(["./dist/assets/site.css", "./src/css/mobi.css"])
-    .pipe(cleanCSS({ compatibility: "ie8" }))
+    // https://github.com/clean-css/clean-css/issues/924#issuecomment-469845180
+    .pipe(cleanCSS({ compatibility: "-properties.zeroUnits" }))
     .pipe(dest("dist/assets"));
 }
 

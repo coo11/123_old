@@ -28,7 +28,8 @@
 .site-bookmark-div-focus {
   opacity: 1;
   text-decoration: none;
-  filter: drop-shadow(2px 2px 3px #888);
+  /* filter: drop-shadow(2px 2px 3px #888); */
+  filter: drop-shadow(1px 2px 8px hsl(0deg 0% 0% / 0.35));
 }
 
 .site-bookmark-a:focus,

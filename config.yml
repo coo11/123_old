@@ -67,6 +67,7 @@ bookmark:
     url: https://telegra.ph/
     favicon: telegraph.png
   - name: <b>More....</b>
+    newTab: true
     url: https://rentry.co/webservice
 
   - category: SNS
@@ -180,6 +181,7 @@ bookmark:
     url: https://www.pixiv.net/
     favicon: pixiv.png
   - name: <b>More....</b>
+    newTab: true
     url: https://rentry.co/acg
 
   - category: Dev
@@ -211,6 +213,7 @@ bookmark:
   - name: PopularBlocks
     url: https://bl.ocks.org/
   - name: <b>More....</b>
+    newTab: true
     url: https://rentry.co/idev
 
   - category: Utils
@@ -349,9 +352,11 @@ bookmark:
 
   - category: Unclassified
   - name: Applist
+    newTab: true
     url: https://rentry.co/applist
     favicon: rentryco.png
   - name: NoUse
+    newTab: true
     url: https://rentry.co/sitenouse
     favicon: rentryco.png
   - name: Github✋⭐

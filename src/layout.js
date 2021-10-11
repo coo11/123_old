@@ -63,7 +63,7 @@ module.exports = (config, cb) => {
     `;
   }
 
-  function renderBookmark({ category, name, url, favicon }) {
+  function renderBookmark({ category, name, url, favicon, newTab }) {
     if (category) {
       return `
         <li class="site-bookmark-li site-bookmark-category unit-1 top-gap text-muted text-small" id="${category.replace(
@@ -79,7 +79,9 @@ module.exports = (config, cb) => {
         class="site-bookmark-li unit-0"
         data-name="${addPinyin(String(name).toLowerCase(), favicon)}"
       >
-        <a href="${url}" class="site-bookmark-a flex-middle" tabindex="9">
+        <a href="${url}" ${
+      newTab ? 'target="_blank" ' : " "
+    }class="site-bookmark-a flex-middle" tabindex="9">
           ${favicon ? '<div class="site-bookmark-div"></div>' : ""}
           <span>${name}</span>
         </a>
@@ -105,7 +107,7 @@ function addPinyin(name, fav) {
     return name === fav ? name : `${name} ${fav}`;
   }
   const py = pinyin(name, {
-    style: pinyin.STYLE_NORMAL, // 普通风格，即不带音标。
+    style: pinyin.STYLE_NORMAL // 普通风格，即不带音标。
   }).join("");
   return py === fav ? `${name} ${py}` : `${name} ${fav} ${py}`;
 }

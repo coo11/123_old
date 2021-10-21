@@ -209,6 +209,9 @@ bookmark:
   - name: Gitee
     url: https://gitee.com
     favicon: gitee.png
+  - name: VSCode
+    url: https://vscode.dev/
+    favicon: vscode.png
   - name: Carbon
     url: https://carbon.now.sh
   - name: HTML Cleaner
@@ -304,9 +307,6 @@ bookmark:
   - name: MEGA
     url: https://mega.nz/fm/
     favicon: mega.png
-  - name: 蓝奏云
-    url: https://www.lanzou.com/
-    favicon: lanzou.png
   - name: Wokers
     url: https://workers.cloudflare.com
     favicon: cloudflare.png
@@ -319,6 +319,12 @@ bookmark:
   - name: OneDrive
     url: https://onedrive.live.com
     favicon: onedrive.png
+  - name: 阿里云盘
+    url: https://www.aliyundrive.com/sign/in
+    favicon: aliyundrive.png
+  - name: 蓝奏云
+    url: https://www.lanzou.com/
+    favicon: lanzou.png
 
   - category: Booru
   - name: Danbooru

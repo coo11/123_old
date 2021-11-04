@@ -94,7 +94,7 @@ module.exports = (config, cb) => {
     return `
       <footer class="text-center top-gap-big text-muted text-small">
         <hr/>
-        <p>Modified by <a class="text-muted" href="https://github.com/coo11/123">coo11</a> & Forked from <a class="text-muted" href="https://github.com/xcatliu/123">xcatliu</a><br>${n} categories included & ${
+        <p>Modified by <a class="text-muted" href="https://github.com/coo11/123">coo11</a> & forked from <a class="text-muted" href="https://github.com/xcatliu/123">xcatliu</a><br>${n} categories included & ${
       config.bookmark.length - n
     } links in total</p>
       </footer>

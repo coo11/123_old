@@ -118,9 +118,6 @@ bookmark:
   - name: Bing
     url: https://www.bing.com
     favicon: bing.png
-  - name: Yahoo
-    url: https://search.yahoo.com
-    favicon: yahoo.png
   - name: Google 学术
     url: https://scholar.google.com
     favicon: googlescolar.png
@@ -157,8 +154,6 @@ bookmark:
   #   url: http://club.excelhome.net/forum.php
   - name: 吾爱破解
     url: https://www.52pojie.cn
-  - name: 福利吧
-    url: https://lao4g.com
 
   - category: ACG
   - name: 番组计划
@@ -261,6 +256,8 @@ bookmark:
   - name: iLovePDF
     url: https://www.ilovepdf.com/zh-cn
     favicon: ilovepdf.png
+  - name: CyberChef
+    url: https://gchq.github.io/CyberChef/
 
   - category: Shopping
   - name: 京东
@@ -336,7 +333,7 @@ bookmark:
   - name: yande.re
     url: https://yande.re/post
     favicon: yandere.png
-  - name: Sankaku
+  - name: SankakuComplex
     url: https://chan.sankakucomplex.com/cn/post
     favicon: sankakucomplex.png
   - name: Konachan
@@ -391,6 +388,8 @@ bookmark:
   - name: Humble
     url: https://www.humblebundle.com/
     favicon: humble.png
+  - name: 福利吧
+    url: https://lao4g.com
 
   # - category: NSFW
   # - name: E-Hentai

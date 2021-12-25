@@ -43,8 +43,8 @@ bookmark:
     url: https://www.bilibili.com
     favicon: bilibili.png
   - name: Telegram
-    url: https://web.telegram.org/k/
-    #   url: https://web.telegram.org/z/
+    #  url: https://web.telegram.org/k/
+    url: https://web.telegram.org/z/
     favicon: telegram.png
   - name: 坚果云
     url: https://www.jianguoyun.com
@@ -55,17 +55,20 @@ bookmark:
   - name: DeepL
     url: https://www.deepl.com/translator
     favicon: deepl.png
-  - name: GIR
-    url: https://coo11.github.io/gir/
-    favicon: gir.png
 
   - category: Shortcut
+  - name: 文件传输助手
+    url: https://szfilehelper.weixin.qq.com
+    favicon: wechat.png
   - name: Rentry.co
     url: https://rentry.co
     favicon: rentryco.png
   - name: Telegraph
     url: https://telegra.ph
     favicon: telegraph.png
+  - name: GIR
+    url: https://coo11.github.io/gir/
+    favicon: gir.png
   - name: <b>More....</b>
     newTab: true
     url: https://rentry.co/webservice
@@ -100,9 +103,9 @@ bookmark:
   - name: 百度识图
     url: https://image.baidu.com/?fr=shitu
     favicon: baidu.png
-  # - name: IQDB
-  #   url: https://iqdb.org/
-  #   favicon: iqdb.png
+  - name: IQDB
+    url: https://iqdb.org/
+    favicon: iqdb.png
   - name: SauceNAO
     url: https://saucenao.com
     favicon: saucenao.png
@@ -148,7 +151,7 @@ bookmark:
     favicon: pcbeta.png
   - name: A岛
     url: https://adnmb.com
-  - name: Stage1
+  - name: Stage1st
     url: https://bbs.saraba1st.com/2b/forum.php
   # - name: ExcelHome
   #   url: http://club.excelhome.net/forum.php
@@ -331,7 +334,7 @@ bookmark:
     url: https://danbooru.donmai.us/
     favicon: danbooru.png
   - name: Gelbooru
-    url: https://gelbooru.com/
+    url: https://gelbooru.com/index.php?page=post&s=list&tags=user:danbooru
     favicon: gelbooru.png
   - name: yande.re
     url: https://yande.re/post

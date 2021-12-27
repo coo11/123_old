@@ -46,6 +46,9 @@ bookmark:
     #  url: https://web.telegram.org/k/
     url: https://web.telegram.org/z/
     favicon: telegram.png
+  - name: 微信
+    url: https://wx2.qq.com
+    favicon: wechat.png
   - name: 坚果云
     url: https://www.jianguoyun.com
     favicon: jianguoyun.png

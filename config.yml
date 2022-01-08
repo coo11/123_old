@@ -314,7 +314,7 @@ bookmark:
     url: https://mega.nz/fm/
     favicon: mega.png
   - name: Wokers
-    url: https://workers.cloudflare.com
+    url: https://dash.cloudflare.com/?account=workers
     favicon: cloudflare.png
   - name: Apps Script
     url: https://script.google.com/home
@@ -325,6 +325,9 @@ bookmark:
   - name: OneDrive
     url: https://onedrive.live.com
     favicon: onedrive.png
+  - name: Colaboratory
+    url: https://colab.research.google.com
+    favicon: colab.png
   - name: 阿里云盘
     url: https://www.aliyundrive.com/sign/in
     favicon: aliyundrive.png

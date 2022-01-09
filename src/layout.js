@@ -19,19 +19,6 @@ module.exports = (config, cb) => {
       <link rel="apple-touch-icon" href="./apple-touch-icon.png">
       <link rel="stylesheet" href="./assets/mobi.css" />
       <link rel="stylesheet" href="./assets/site.css" />
-      <script>
-        let ua = window.navigator.userAgent;
-        if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
-          let images = ${JSON.stringify(config.images || [])},
-            n = images.length;
-          if (n) {
-            let i = Math.round(Math.random() * (n - 1));
-            document.write(
-              "<style>body{background:url(" + images[i] + ") no-repeat center top;background-attachment:fixed;background-size:cover;}</style>"
-            );
-          }
-        }
-      </script>
     </head>
     <body>
       <div class="flex-center">
@@ -41,6 +28,22 @@ module.exports = (config, cb) => {
           ${renderFooter()}
         </div>
       </div>
+      <script>
+        let ua = window.navigator.userAgent;
+        if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
+          let images = ${JSON.stringify(config.images || [])},
+            n = images.length;
+            if (n) {
+              let i = Math.round(Math.random() * (n - 1)),
+                pre = \`url("\${images[i]}") fixed \`;
+              document.body.style.background = pre + (i === ${(
+                config.images || []
+              ).findIndex(
+                url => url.indexOf("v23ba8022bc3904bacabf05b4193d264f4") > -1
+              )} ? "repeat" : "no-repeat top center / cover");
+            }
+        }
+    </script>
       <script src="./assets/search.js"></script>
     </body>
   </html>

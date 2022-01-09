@@ -8,19 +8,20 @@
   searchInput.addEventListener("input", handleSearchInput);
 
   function handleGlobalKeyup(e) {
+    let key = e.key;
     if (
       e.altKey ||
       e.ctrlKey ||
       e.metaKey ||
+      /F\d{1,2}/.test(key) ||
       document.activeElement === searchInput
     ) {
-      e.key === "Escape" && searchInput.blur();
+      key === "Escape" && searchInput.blur();
       return;
     }
-    let c = String.fromCharCode(e.keyCode).toLowerCase();
-    if (c.match(/\w/)) {
+    if (key.match(/^\w$/)) {
       searchInput.focus();
-      searchInput.value += c;
+      searchInput.value += key;
     }
     handleSearchInput();
   }

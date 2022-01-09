@@ -1,12 +1,12 @@
-title: coo11's front page
+title: coo11's start page
 
 images:
-  # - https://tva2.sinaimg.cn/large/007HLCaply1g3txfml208j31hc0u0agm.jpg
-  # - https://tva3.sinaimg.cn/large/007HLCaply1g6yyg0k3u6j315o0the1w.jpg # 偶像大师
   - https://tva4.sinaimg.cn/large/007HLCaply1g3txganifkj31hc0u07nc.jpg # Steins;Gate 0 CG
   - https://tva1.sinaimg.cn/large/007HLCaply1g3txg3ge70j31jk13a7ea.jpg # 花の庭 #JK #Yuri
   # - https://tva1.sinaimg.cn/large/007HLCaply1g3txfykvg5j31jk0yq7bb.jpg # 万象物语
   - https://tva1.sinaimg.cn/large/be297bc5gy1gi8rdnnyomj21hc0tlnpd.jpg # 美食殿堂水着
+  - https://tva2.sinaimg.cn/large/007VNGjcly1gxxxruo6v2j329k1m0b2a.jpg # 🐯 HAPPY NEW YEAR
+  - https://pic3.58cdn.com.cn/nowater/webim/big/n_v23ba8022bc3904bacabf05b4193d264f4.png # https://static.v2ex.com/grids/air.png
 
 bookmark:
   - name: Google
@@ -106,9 +106,16 @@ bookmark:
   - name: 百度识图
     url: https://image.baidu.com/?fr=shitu
     favicon: baidu.png
+  - name: Startpage
+    url: https://startpage.com
+    favicon: startpage.png
+  - name: Bing
+    url: https://www.bing.com
+    favicon: bing.png
+  - name: Mag[i]
+    url: https://magi.com
   - name: IQDB
     url: https://iqdb.org/
-    favicon: iqdb.png
   - name: SauceNAO
     url: https://saucenao.com
     favicon: saucenao.png
@@ -121,14 +128,9 @@ bookmark:
   - name: Twitter 高级搜索
     url: https://twitter.com/search-advanced
     favicon: twitter.png
-  - name: Bing
-    url: https://www.bing.com
-    favicon: bing.png
   - name: Google 学术
     url: https://scholar.google.com
     favicon: googlescolar.png
-  - name: Mag[i]
-    url: https://magi.com
   - name: WAIT
     url: https://trace.moe
 

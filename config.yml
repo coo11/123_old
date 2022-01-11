@@ -139,7 +139,7 @@ bookmark:
     url: https://bbs.nga.cn
     favicon: nga.png
   - name: V2EX
-    url: https://v2ex.com
+    url: https://www.v2ex.com/?tab=all
     favicon: v2ex.png
   - name: reddit
     url: https://www.reddit.com
@@ -377,6 +377,10 @@ bookmark:
   - name: NoUse
     newTab: true
     url: https://rentry.co/sitenouse
+    favicon: rentryco.png
+  - name: ProjectChrome
+    newTab: true
+    url: https://rentry.co/pch
     favicon: rentryco.png
   - name: Github✋⭐
     url: https://rentry.co/githubnostar

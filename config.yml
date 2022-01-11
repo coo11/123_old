@@ -378,7 +378,7 @@ bookmark:
     newTab: true
     url: https://rentry.co/sitenouse
     favicon: rentryco.png
-  - name: ProjectChrome
+  - name: ProjectChromium
     newTab: true
     url: https://rentry.co/pch
     favicon: rentryco.png

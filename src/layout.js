@@ -3,7 +3,7 @@ const pinyin = require("pinyin");
 const CHINESE = /[\u4e00-\u9fa5]/;
 
 module.exports = (config, cb) => {
-  // Line 36: From V2EX https://static.v2ex.com/grids/air.png
+  // Line 37: From V2EX https://static.v2ex.com/grids/air.png
   cb(`
   <!DOCTYPE html>
   <html lang="en">
@@ -30,18 +30,17 @@ module.exports = (config, cb) => {
         </div>
       </div>
       <script>
-        let ua = window.navigator.userAgent,
-          images = ${JSON.stringify(config.images || [])},
-          n = images.length,
-          style = 'url("https://pic3.58cdn.com.cn/nowater/webim/big/n_v23ba8022bc3904bacabf05b4193d264f4.png") fixed repeat';
-
+        let ua = window.navigator.userAgent;
         if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
-            if (n) {
-              let i = Math.round(Math.random() * n);
-              if (i !== n) style = \`url("\${images[i]}") fixed no-repeat top center / cover\`;
-            }
+          let images = ${JSON.stringify(config.images || [])},
+            n = images.length,
+            style = 'url("https://pic3.58cdn.com.cn/nowater/webim/big/n_v23ba8022bc3904bacabf05b4193d264f4.png") fixed repeat';
+          if (n) {
+            let i = Math.round(Math.random() * Math.max(9, n));
+            if (i < n) style = \`url("\${images[i]}") fixed no-repeat top center / cover\`;
+          }
+          document.body.style.background = style;
         }
-        document.body.style.background = style;
     </script>
       <script src="./assets/search.js"></script>
     </body>

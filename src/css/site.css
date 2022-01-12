@@ -26,6 +26,7 @@
 .site-bookmark-a:hover,
 .site-bookmark-a:focus,
 .site-bookmark-div-focus {
+  will-change: filter; /* https://stackoverflow.com/a/59306366/14168341 */
   opacity: 1;
   text-decoration: none;
   /* filter: drop-shadow(2px 2px 3px #888); */

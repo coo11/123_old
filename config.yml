@@ -91,6 +91,9 @@ bookmark:
   - name: 斗鱼
     url: https://www.douyu.com
     favicon: douyu.png
+  - name: TikTok
+    url: https://www.tiktok.com
+    favicon: tiktok.png
   - name: Twitch
     url: https://www.twitch.tv
     favicon: twitch.png
@@ -111,19 +114,19 @@ bookmark:
   - name: Bing
     url: https://www.bing.com
     favicon: bing.png
-  - name: Mag[i]
-    url: https://magi.com
-  - name: IQDB
-    url: https://iqdb.org/
+  - name: WolframAlpha
+    url: https://www.wolframalpha.com/
+    favicon: wolframalpha.png
   - name: SauceNAO
     url: https://saucenao.com
     favicon: saucenao.png
   - name: ascii2d
     url: https://ascii2d.net
     favicon: ascii2d.png
-  - name: WolframAlpha
-    url: https://www.wolframalpha.com/
-    favicon: wolframalpha.png
+  - name: Mag[i]
+    url: https://magi.com
+  - name: IQDB
+    url: https://iqdb.org/
   - name: Twitter 高级搜索
     url: https://twitter.com/search-advanced
     favicon: twitter.png

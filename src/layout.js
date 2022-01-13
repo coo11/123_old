@@ -8,18 +8,19 @@ module.exports = (config, cb) => {
   <!DOCTYPE html>
   <html lang="en">
     <head>
-      <meta charset="utf-8" />
-      <meta http-equiv="x-ua-compatible" content="ie=edge" />
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="description" content="A simple start page">
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0,
             maximum-scale=1.0, user-scalable=no"
-      />
+      >
       <title>${config.title}</title>
-      <link rel="shortcut icon" type="image/png" href="./favicon.ico" />
+      <link rel="shortcut icon" type="image/png" href="./favicon.ico">
       <link rel="apple-touch-icon" href="./apple-touch-icon.png">
-      <link rel="stylesheet" href="./assets/mobi.css" />
-      <link rel="stylesheet" href="./assets/site.css" />
+      <link rel="stylesheet" href="./assets/mobi.css">
+      <link rel="stylesheet" href="./assets/site.css">
       <script>
         let ua = window.navigator.userAgent;
         if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
@@ -81,7 +82,7 @@ module.exports = (config, cb) => {
         data-name="${addPinyin(String(name).toLowerCase(), favicon)}"
       >
         <a href="${url}" ${
-      newTab ? 'target="_blank" ' : " "
+      newTab ? 'target="_blank" rel="noreferrer" ' : " "
     }class="site-bookmark-a flex-middle" tabindex="9">
           ${favicon ? '<div class="site-bookmark-div"></div>' : ""}
           <span>${name}</span>

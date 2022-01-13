@@ -9,16 +9,17 @@
 
   function handleGlobalKeyup(e) {
     let key = e.key;
-    if (
+    if (key === "Escape") {
+      searchInput.blur();
+      searchInput.value = "";
+    } else if (
       e.altKey ||
       e.ctrlKey ||
       e.metaKey ||
       /F\d{1,2}/.test(key) ||
       document.activeElement === searchInput
-    ) {
-      key === "Escape" && searchInput.blur();
+    )
       return;
-    }
     if (key.match(/^\w$/)) {
       searchInput.focus();
       searchInput.value += key;

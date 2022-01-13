@@ -20,6 +20,20 @@ module.exports = (config, cb) => {
       <link rel="apple-touch-icon" href="./apple-touch-icon.png">
       <link rel="stylesheet" href="./assets/mobi.css" />
       <link rel="stylesheet" href="./assets/site.css" />
+      <script>
+        let ua = window.navigator.userAgent;
+        if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
+          let images = ${JSON.stringify(config.images || [])},
+            n = images.length,
+            style = 'url("https://pic3.58cdn.com.cn/nowater/webim/big/n_v23ba8022bc3904bacabf05b4193d264f4.png") fixed repeat;';
+          if (n) {
+            let i = Math.round(Math.random() * Math.max(9, n));
+            if (i < n) style = \`url("\${images[i]}") fixed no-repeat top center / cover;\`;
+          }
+          document.head.insertAdjacentHTML("beforeend", \`<style>body { background: \${style} }</style>\`);
+        }
+      </script>
+      <script defer src="./assets/search.js"></script>
     </head>
     <body>
       <div class="flex-center">
@@ -29,20 +43,6 @@ module.exports = (config, cb) => {
           ${renderFooter()}
         </div>
       </div>
-      <script>
-        let ua = window.navigator.userAgent;
-        if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
-          let images = ${JSON.stringify(config.images || [])},
-            n = images.length,
-            style = 'url("https://pic3.58cdn.com.cn/nowater/webim/big/n_v23ba8022bc3904bacabf05b4193d264f4.png") fixed repeat';
-          if (n) {
-            let i = Math.round(Math.random() * Math.max(9, n));
-            if (i < n) style = \`url("\${images[i]}") fixed no-repeat top center / cover\`;
-          }
-          document.body.style.background = style;
-        }
-    </script>
-      <script src="./assets/search.js"></script>
     </body>
   </html>
   `);

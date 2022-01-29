@@ -268,6 +268,8 @@ bookmark:
     favicon: ilovepdf.png
   - name: CyberChef
     url: https://gchq.github.io/CyberChef/
+  - name: r12aEncodingConverter
+    url: https://r12a.github.io/app-encodings/
 
   - category: Shopping
   - name: 京东
@@ -360,7 +362,7 @@ bookmark:
   - name: NumberEmpire
     url: https://zh.numberempire.com/
   - name: MathStudio
-    url: http://mathstud.io/
+    url: http://mathstud.io
     favicon: mathstudio.png
   - name: Desmos
     url: https://www.desmos.com/calculator?lang=zh-CN
@@ -388,28 +390,28 @@ bookmark:
     url: https://rentry.co/githubnostar
     favicon: github.png
   - name: IMDb
-    url: https://www.imdb.com/
+    url: https://www.imdb.com
     favicon: imdb.png
   - name: 网盘搜索
     url: https://adzhp.cn/wang-pan-sou-suo.html
   - name: 天眼查
-    url: https://www.tianyancha.com/
+    url: https://www.tianyancha.com
     favicon: tianyancha.png
   - name: 企查查
-    url: https://www.qcc.com/
+    url: https://www.qcc.com
     favicon: qichacha.png
   - name: 西贴
-    url: http://www.xitie.com/
+    url: http://www.xitie.com
   - name: 比一比价
-    url: http://b1bj.com/
+    url: http://b1bj.com
   - name: SteamDB
-    url: https://steamdb.info/
+    url: https://steamdb.info
     favicon: steamdb.png
   - name: Humble
-    url: https://www.humblebundle.com/
+    url: https://www.humblebundle.com
     favicon: humble.png
   - name: 福利吧
-    url: https://lao4g.com
+    url: https://fuliba-1251744788.file.myqcloud.com
 
   # - category: NSFW
   # - name: E-Hentai

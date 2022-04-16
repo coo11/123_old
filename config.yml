@@ -58,10 +58,13 @@ bookmark:
     url: https://www.deepl.com/translator
     favicon: deepl.png
 
-  - category: Shortcut
+  - category: Shortcuts
   - name: 文件传输助手
     url: https://szfilehelper.weixin.qq.com
     favicon: wechat.png
+  - name: Snapdrop
+    url: https://snapdrop.net
+    favicon: snapdrop.png
   - name: Rentry.co
     url: https://rentry.co
     favicon: rentryco.png
@@ -156,8 +159,6 @@ bookmark:
   - name: PCbeta
     url: http://bbs.pcbeta.com/forum.php
     favicon: pcbeta.png
-  - name: A岛
-    url: https://adnmb.com
   - name: Stage1st
     url: https://bbs.saraba1st.com/2b/forum.php
   # - name: ExcelHome
@@ -250,7 +251,8 @@ bookmark:
     url: https://archive.is
   - name: AriaNg
     # url: http://ariang.mayswind.net/latest
-    url: http://p3terx.gitee.io/ariang/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
+    # url: http://www.ykamc.cn/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
+    url: http://aria2.iloli.li/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
   - name: Sketchpad
     url: https://sketch.io/sketchpad/?lang=zh
     favicon: sketchpad.png
@@ -410,6 +412,8 @@ bookmark:
   - name: Humble
     url: https://www.humblebundle.com
     favicon: humble.png
+  - name: Z-Library
+    url: https://1lib.domains
   - name: 福利吧
     url: https://fuliba-1251744788.file.myqcloud.com
 

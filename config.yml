@@ -3,9 +3,11 @@ title: coo11's start page
 images:
   - https://tva4.sinaimg.cn/large/007HLCaply1g3txganifkj31hc0u07nc.jpg # Steins;Gate 0 CG
   - https://tva1.sinaimg.cn/large/007HLCaply1g3txg3ge70j31jk13a7ea.jpg # 花の庭 #JK #Yuri
-  # - https://tva1.sinaimg.cn/large/007HLCaply1g3txfykvg5j31jk0yq7bb.jpg # 万象物语
   - https://tva1.sinaimg.cn/large/be297bc5gy1gi8rdnnyomj21hc0tlnpd.jpg # 美食殿堂水着
   - https://tva2.sinaimg.cn/large/007VNGjcly1gxxxruo6v2j329k1m0b2a.jpg # 🐯 HAPPY NEW YEAR
+  - https://tva4.sinaimg.cn/large/a1b172dagy1h1crahkeipj21rq0u0h31.jpg # パリピ孔明
+  - https://tva3.sinaimg.cn/large/006yt1Omgy1gy21b2xsjxj31r40zkkjl.jpg # 芹沢あさひ
+  - https://tva4.sinaimg.cn/large/006ZNaWGgy1gxclizya3gj335s29j4qp.jpg # 「やっと、見つけた＿＿」
 
 bookmark:
   - name: Google
@@ -168,7 +170,8 @@ bookmark:
 
   - category: ACG
   - name: 番组计划
-    url: https://bgm.tv/group/a
+    url: https://bgm.tv/group/boring/forum # 靠谱人生茶话会
+  #   url: https://bgm.tv/group/a/forum # ～技术宅真可怕～
     favicon: bangumi.png
   - name: AcFun
     url: https://www.acfun.cn
@@ -253,9 +256,6 @@ bookmark:
     # url: http://ariang.mayswind.net/latest
     # url: http://www.ykamc.cn/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
     url: http://aria2.iloli.li/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
-  - name: Sketchpad
-    url: https://sketch.io/sketchpad/?lang=zh
-    favicon: sketchpad.png
   - name: PaperSizes
     url: https://papersizes.io
     favicon: papersizes.png
@@ -272,6 +272,11 @@ bookmark:
     url: https://gchq.github.io/CyberChef/
   - name: r12aEncodingConverter
     url: https://r12a.github.io/app-encodings/
+  - name: 码主人
+    url: https://mazhuren.com
+  - name: Sketchpad
+    url: https://sketch.io/sketchpad/?lang=zh
+    favicon: sketchpad.png
 
   - category: Shopping
   - name: 京东
@@ -337,7 +342,7 @@ bookmark:
     url: https://colab.research.google.com
     favicon: colab.png
   - name: 阿里云盘
-    url: https://www.aliyundrive.com/sign/in
+    url: https://www.aliyundrive.com/drive
     favicon: aliyundrive.png
   - name: 蓝奏云
     url: https://www.lanzou.com/
@@ -353,7 +358,10 @@ bookmark:
   - name: yande.re
     url: https://yande.re/post
     favicon: yandere.png
-  - name: SankakuComplex
+  - name: Kemono
+    url: https://kemono.party/artists
+    favicon: kemono.png
+  - name: Sankaku
     url: https://chan.sankakucomplex.com/cn/post
     favicon: sankakucomplex.png
   - name: Konachan
@@ -426,8 +434,6 @@ bookmark:
   #   favicon: ehentai.png
   # - name: 绅士仓库
   #   url: https://galacg.github.io/
-  # - name: 茶馆🍵
-  #   url: https://bbs.imoutolove.me/thread.php?fid-9.html
   # - name: 琉璃神社⛩
   #   url: https://acg.gy/
   # - name: 紳士の庭🎩

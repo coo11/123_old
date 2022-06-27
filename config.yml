@@ -5,7 +5,6 @@ images:
   - https://tva1.sinaimg.cn/large/007HLCaply1g3txg3ge70j31jk13a7ea.jpg # 花の庭 #JK #Yuri
   - https://tva1.sinaimg.cn/large/be297bc5gy1gi8rdnnyomj21hc0tlnpd.jpg # 美食殿堂水着
   - https://tva2.sinaimg.cn/large/007VNGjcly1gxxxruo6v2j329k1m0b2a.jpg # 🐯 HAPPY NEW YEAR
-  - https://tva4.sinaimg.cn/large/a1b172dagy1h1crahkeipj21rq0u0h31.jpg # パリピ孔明
   - https://tva3.sinaimg.cn/large/006yt1Omgy1gy21b2xsjxj31r40zkkjl.jpg # 芹沢あさひ
   - https://tva4.sinaimg.cn/large/006ZNaWGgy1gxclizya3gj335s29j4qp.jpg # 「やっと、見つけた＿＿」
 
@@ -66,7 +65,6 @@ bookmark:
     favicon: wechat.png
   - name: Snapdrop
     url: https://snapdrop.net
-    favicon: snapdrop.png
   - name: Rentry.co
     url: https://rentry.co
     favicon: rentryco.png
@@ -76,6 +74,8 @@ bookmark:
   - name: GIR
     url: https://coo11.github.io/gir/
     favicon: gir.png
+  - name: 码主人
+    url: https://mazhuren.com
   - name: <b>More....</b>
     newTab: true
     url: https://rentry.co/webservice
@@ -167,6 +167,9 @@ bookmark:
   #   url: http://club.excelhome.net/forum.php
   - name: 吾爱破解
     url: https://www.52pojie.cn
+  - name: 看雪论坛
+    url: https://bbs.pediy.com
+    favicon: pediy.png
 
   - category: ACG
   - name: 番组计划
@@ -272,8 +275,6 @@ bookmark:
     url: https://gchq.github.io/CyberChef/
   - name: r12aEncodingConverter
     url: https://r12a.github.io/app-encodings/
-  - name: 码主人
-    url: https://mazhuren.com
   - name: Sketchpad
     url: https://sketch.io/sketchpad/?lang=zh
     favicon: sketchpad.png

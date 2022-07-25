@@ -280,6 +280,8 @@ bookmark:
   - name: Sketchpad
     url: https://sketch.io/sketchpad/?lang=zh
     favicon: sketchpad.png
+  - name: IP&DNS
+    url: https://ip.skk.moe/
 
   - category: Shopping
   - name: 京东
@@ -307,8 +309,11 @@ bookmark:
     # Alternatives
     # https://waifu2x.me/
     # https://waifu2x.udp.jp/
-  - name: TinyPNG
-    url: https://tinypng.com
+  # - name: TinyPNG
+    # url: https://tinypng.com
+  - name: PhotoFun
+    url: https://www.photofun.cn/compress/
+    favicon: photofun.png
   - name: Watermark
     url: http://watermark.dxcweb.com/
     favicon: pic.png

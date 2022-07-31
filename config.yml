@@ -106,6 +106,9 @@ bookmark:
   - name: Twitch
     url: https://www.twitch.tv
     favicon: twitch.png
+  - name: Discord
+    url: https://discord.com/channels/@me
+    favicon: discord.png
 
   - category: Search
   - name: Yandex 搜图
@@ -222,9 +225,6 @@ bookmark:
   - name: GitLab
     url: https://gitlab.com
     favicon: gitlab.png
-  - name: Gitee
-    url: https://gitee.com
-    favicon: gitee.png
   - name: VSCode
     url: https://vscode.dev/
     favicon: vscode.png
@@ -232,14 +232,14 @@ bookmark:
     url: https://carbon.now.sh
   - name: HTML Cleaner
     url: https://html-cleaner.com
-  - name: HTML2MD
-    url: https://tool.lu/markdown/
+  - name: CyberChef
+    url: https://gchq.github.io/CyberChef/
   - name: <b>More....</b>
     newTab: true
     url: https://rentry.co/idev
 
   - category: Utils
-  - name: GoogleVoice
+  - name: GVoice
     url: https://voice.google.com/messages
     favicon: googlevoice.png
   - name: Textnow
@@ -277,14 +277,14 @@ bookmark:
   - name: iLovePDF
     url: https://www.ilovepdf.com/zh-cn
     favicon: ilovepdf.png
-  - name: CyberChef
-    url: https://gchq.github.io/CyberChef/
+  - name: HTML2MD
+    url: https://tool.lu/markdown/
   - name: r12aEncodingConverter
     url: https://r12a.github.io/app-encodings/
   - name: Sketchpad
     url: https://sketch.io/sketchpad/?lang=zh
     favicon: sketchpad.png
-  - name: IP&DNS
+  - name: ＩＰ
     url: https://ip.skk.moe/
 
   - category: Shopping

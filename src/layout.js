@@ -25,13 +25,8 @@ module.exports = (config, cb) => {
         let ua = window.navigator.userAgent;
         if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
           let images = ${JSON.stringify(config.images || [])},
-            n = images.length,
-            style = 'url("https://pic3.58cdn.com.cn/nowater/webim/big/n_v23ba8022bc3904bacabf05b4193d264f4.png") fixed repeat;';
-          if (n) {
-            let i = Math.round(Math.random() * Math.max(9, n));
-            if (i < n) style = \`url("\${images[i]}") fixed no-repeat top center / cover;\`;
-          }
-          document.head.insertAdjacentHTML("beforeend", \`<style>body { background: \${style} }</style>\`);
+            i = Math.round(Math.random() * images.length);
+          document.head.insertAdjacentHTML("beforeend", \`<style>body { background: url("\${images[i]}") fixed no-repeat top center / cover; }</style>\`);
         }
       </script>
       <script defer src="./assets/search.js"></script>
@@ -69,9 +64,9 @@ module.exports = (config, cb) => {
     if (category) {
       return `
         <li class="site-bookmark-li site-bookmark-category unit-1 top-gap text-muted text-small" id="${category.replace(
-          /\s/g,
-          ""
-        )}">${category}</li>
+        /\s/g,
+        ""
+      )}">${category}</li>
       `;
     }
     if (favicon) favicon = favicon.slice(0, -4).toLowerCase();
@@ -81,9 +76,8 @@ module.exports = (config, cb) => {
         class="site-bookmark-li unit-0"
         data-name="${addPinyin(String(name).toLowerCase(), favicon)}"
       >
-        <a href="${url}" ${
-      newTab ? 'target="_blank" rel="noreferrer" ' : " "
-    }class="site-bookmark-a flex-middle" tabindex="9">
+        <a href="${url}" ${newTab ? 'target="_blank" rel="noreferrer" ' : " "
+      }class="site-bookmark-a flex-middle" tabindex="9">
           ${favicon ? '<div class="site-bookmark-div"></div>' : ""}
           <span>${name}</span>
         </a>
@@ -96,15 +90,18 @@ module.exports = (config, cb) => {
     return `
       <footer class="text-center top-gap-big text-muted text-small">
         <hr/>
-        <p>Modified by <a class="text-muted" href="https://github.com/coo11/123">coo11</a> & forked from <a class="text-muted" href="https://github.com/xcatliu/123">xcatliu</a><br>${n} categories included & ${
-      config.bookmark.length - n
-    } links in total</p>
+        <p>Modified by <a class="text-muted" href="https://github.com/coo11/123">coo11</a> & forked from <a class="text-muted" href="https://github.com/xcatliu/123">xcatliu</a><br>${n} categories included & ${config.bookmark.length - n
+      } links in total</p>
       </footer>
     `;
   }
 };
 
 function addPinyin(name, fav) {
+  name = name.replace( // https://stackoverflow.com/a/20488304
+    /[\uff01-\uff5e]/g,
+    function (ch) { return String.fromCharCode(ch.charCodeAt(0) - 0xfee0); }
+  );
   if (!CHINESE.test(name)) {
     return name === fav ? name : `${name} ${fav}`;
   }

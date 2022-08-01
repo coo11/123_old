@@ -11,6 +11,7 @@ module.exports = (config, cb) => {
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta name="description" content="A simple start page">
+      <meta name="referrer" content="no-referrer">
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0,

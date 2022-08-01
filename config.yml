@@ -78,7 +78,7 @@ bookmark:
   - name: GIR
     url: https://coo11.github.io/gir/
     favicon: gir.png
-  - name: 码主人
+  - name: QRCode
     url: https://mazhuren.com
   - name: <b>More....</b>
     newTab: true
@@ -350,7 +350,7 @@ bookmark:
   - name: OneDrive
     url: https://onedrive.live.com
     favicon: onedrive.png
-  - name: Colaboratory
+  - name: Colab
     url: https://colab.research.google.com
     favicon: colab.png
   - name: 阿里云盘

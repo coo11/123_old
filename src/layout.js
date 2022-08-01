@@ -25,7 +25,7 @@ module.exports = (config, cb) => {
         let ua = window.navigator.userAgent;
         if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
           let images = ${JSON.stringify(config.images || [])},
-            i = Math.round(Math.random() * images.length);
+            i = Math.round(Math.random() * (images.length - 1));
           document.head.insertAdjacentHTML("beforeend", \`<style>body { background: url("\${images[i]}") fixed no-repeat top center / cover; }</style>\`);
         }
       </script>

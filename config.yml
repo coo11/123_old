@@ -138,12 +138,15 @@ bookmark:
     url: https://magi.com
   - name: IQDB
     url: https://iqdb.org/
-  - name: Twitter 高级搜索
-    url: https://twitter.com/search-advanced
-    favicon: twitter.png
+  # - name: Twitter 高级搜索
+  #   url: https://twitter.com/search-advanced
+  #   favicon: twitter.png
   - name: Google 学术
     url: https://scholar.google.com
     favicon: googlescolar.png
+  - name: AHA Song Finder
+    url: https://www.aha-music.com/upload
+    favicon: aha.png
   - name: WAIT
     url: https://trace.moe
 
@@ -196,8 +199,8 @@ bookmark:
     url: https://www.tsdm39.net/forum.php
   - name: 萌娘百科
     url: https://zh.moegirl.org.cn/Mainpage
-  - name: 🍵茶馆
-    url: https://bbs.imoutolove.me/thread.php?fid-9.html
+  - name: 动漫花园
+    url: https://share.dmhy.org
   - name: <b>More....</b>
     newTab: true
     url: https://rentry.co/acg
@@ -355,6 +358,9 @@ bookmark:
   - name: 阿里云盘
     url: https://www.aliyundrive.com/drive
     favicon: aliyundrive.png
+  - name: PikPak
+    url: https://mumuchenchen.github.io/pikpak/#/list#mypikpak.com/drive/all
+    favicon: pikpak.png
   - name: 蓝奏云
     url: https://www.lanzou.com/
     favicon: lanzou.png
@@ -410,6 +416,8 @@ bookmark:
   - name: Github✋⭐
     url: https://rentry.co/githubnostar
     favicon: github.png
+  - name: 🍵茶馆
+    url: https://bbs.imoutolove.me/thread.php?fid-9.html
   - name: IMDb
     url: https://www.imdb.com
     favicon: imdb.png

@@ -4,8 +4,8 @@
     if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
       document.body.style.background = "url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAAAAADF+lnMAAAAAnRSTlMA/1uRIrUAAAAmSURBVAjXNcYxAQAwEAIx6t8er+c6AJnyUJwIo6UznelMl6AFLXybuUg2me0a1QAAAABJRU5ErkJggg==') fixed";
       try {
-        fetch("https://123.coo11.workers.dev/bg").then(resp => { if (resp.status === 200) return resp.text() }).then(url => {
-          document.body.style.background = `url("${url}") fixed no-repeat top center / cover`;
+        fetch("https://123.coo11.workers.dev/bg", { method: 'HEAD' }).then(resp => {
+          if (resp.status === 200) document.body.style.background = `url("${resp.url}") fixed no-repeat top center / cover`;
         })
       } catch (e) { }
     }

@@ -85,25 +85,25 @@
 
   function setSearchStyle(splitedQuery) {
     searchStyle.innerHTML = `
-      .site - bookmark - category {
+      .site-bookmark-category {
         display: none;
       }
-        .site - bookmark - a {
-      opacity: 0.3;
-    }
+      .site-bookmark-a {
+        opacity: 0.3;
+      }
       ${generateQuerySelectorQuery(splitedQuery)} {
-      order: -1;
-        - ms - flex - order: -1;
-  }
-      ${generateQuerySelectorQuery(splitedQuery)} .site - bookmark - a {
-    opacity: 1;
-  }
-  `;
+        order: -1;
+        -ms-flex-order: -1;
+      }
+      ${generateQuerySelectorQuery(splitedQuery)} .site-bookmark-a {
+        opacity: 1;
+      }
+    `;
   }
 
   function setTabindex(splitedQuery) {
     let filteredItems = document.querySelectorAll(
-      `${generateQuerySelectorQuery(splitedQuery)} .site - bookmark - a`
+      `${generateQuerySelectorQuery(splitedQuery)} .site-bookmark-a`
     );
 
     filteredItems.forEach(item => {
@@ -113,7 +113,7 @@
 
   function setFocus(splitedQuery) {
     let firstItem = document.querySelector(
-      `${generateQuerySelectorQuery(splitedQuery)} .site - bookmark - a`
+      `${generateQuerySelectorQuery(splitedQuery)} .site-bookmark-a`
     );
     if (firstItem) {
       firstItem.classList.add("site-bookmark-a-focus");
@@ -121,6 +121,6 @@
   }
 
   function generateQuerySelectorQuery(splitedQuery) {
-    return splitedQuery.map(query => `[data - name*="${query}"]`).join("");
+    return splitedQuery.map(query => `[data-name*="${query}"]`).join("");
   }
 })();

@@ -33,8 +33,7 @@ module.exports = (config, cb) => {
         </div>
       </div>
     </body>
-  </html>
-  `);
+  </html>`);
 
   function renderSearch() {
     return `

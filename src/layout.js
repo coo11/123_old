@@ -22,15 +22,7 @@ module.exports = (config, cb) => {
       <link rel="apple-touch-icon" href="./apple-touch-icon.png">
       <link rel="stylesheet" href="./assets/mobi.css">
       <link rel="stylesheet" href="./assets/site.css">
-      <script>
-        let ua = window.navigator.userAgent;
-        if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
-          let images = ${JSON.stringify(config.images || [])},
-            i = Math.round(Math.random() * (images.length - 1));
-          document.head.insertAdjacentHTML("beforeend", \`<style>body { background: url("\${images[i]}") fixed no-repeat top center / cover; }</style>\`);
-        }
-      </script>
-      <script defer src="./assets/search.js"></script>
+      <script defer src="./assets/init.js"></script>
     </head>
     <body>
       <div class="flex-center">

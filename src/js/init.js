@@ -1,4 +1,16 @@
 (() => {
+  {
+    let ua = window.navigator.userAgent;
+    if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
+      document.body.style.background = "url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAAAAADF+lnMAAAAAnRSTlMA/1uRIrUAAAAmSURBVAjXNcYxAQAwEAIx6t8er+c6AJnyUJwIo6UznelMl6AFLXybuUg2me0a1QAAAABJRU5ErkJggg==') fixed";
+      try {
+        fetch("https://123.coo11.workers.dev/bg").then(resp => { if (resp.status === 200) return resp.text() }).then(url => {
+          document.body.style.background = `url("${url}") fixed no-repeat top center / cover`;
+        })
+      } catch (e) { }
+    }
+  };
+
   let searchForm = document.getElementById("search-form");
   let searchInput = document.getElementById("search-input");
   let searchStyle = document.getElementById("search-style");
@@ -73,25 +85,25 @@
 
   function setSearchStyle(splitedQuery) {
     searchStyle.innerHTML = `
-      .site-bookmark-category {
+      .site - bookmark - category {
         display: none;
       }
-      .site-bookmark-a {
-        opacity: 0.3;
-      }
+        .site - bookmark - a {
+      opacity: 0.3;
+    }
       ${generateQuerySelectorQuery(splitedQuery)} {
-        order: -1;
-        -ms-flex-order: -1;
-      }
-      ${generateQuerySelectorQuery(splitedQuery)} .site-bookmark-a {
-        opacity: 1;
-      }
-    `;
+      order: -1;
+        - ms - flex - order: -1;
+  }
+      ${generateQuerySelectorQuery(splitedQuery)} .site - bookmark - a {
+    opacity: 1;
+  }
+  `;
   }
 
   function setTabindex(splitedQuery) {
     let filteredItems = document.querySelectorAll(
-      `${generateQuerySelectorQuery(splitedQuery)} .site-bookmark-a`
+      `${generateQuerySelectorQuery(splitedQuery)} .site - bookmark - a`
     );
 
     filteredItems.forEach(item => {
@@ -101,7 +113,7 @@
 
   function setFocus(splitedQuery) {
     let firstItem = document.querySelector(
-      `${generateQuerySelectorQuery(splitedQuery)} .site-bookmark-a`
+      `${generateQuerySelectorQuery(splitedQuery)} .site - bookmark - a`
     );
     if (firstItem) {
       firstItem.classList.add("site-bookmark-a-focus");
@@ -109,6 +121,6 @@
   }
 
   function generateQuerySelectorQuery(splitedQuery) {
-    return splitedQuery.map(query => `[data-name*="${query}"]`).join("");
+    return splitedQuery.map(query => `[data - name*="${query}"]`).join("");
   }
 })();

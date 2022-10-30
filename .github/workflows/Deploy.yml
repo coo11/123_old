@@ -24,7 +24,7 @@ jobs:
             ${{ runner.os }}-node-
       - name: Install package
         run: |
-          ls ../
+          ls ../../
           npm install
           npm run build
       - name: Deploy

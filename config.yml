@@ -348,6 +348,9 @@ bookmark:
   - name: Colab
     url: https://colab.research.google.com
     favicon: colab.png
+  - name: Vercel
+    url: https://vercel.com/dashboard
+    favicon: vercel.png
   - name: 阿里云盘
     url: https://www.aliyundrive.com/drive
     favicon: aliyundrive.png

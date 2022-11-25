@@ -250,6 +250,8 @@ bookmark:
     url: https://dropmail.me/zh/
   - name: TableConvert
     url: https://tableconvert.com
+  - name: IP
+    url: https://ip.skk.moe/
   - name: InternetArchive
     url: https://archive.org/web/
   - name: Archive.today
@@ -279,8 +281,8 @@ bookmark:
   - name: Sketchpad
     url: https://sketch.io/sketchpad/?lang=zh
     favicon: sketchpad.png
-  - name: ＩＰ
-    url: https://ip.skk.moe/
+  - name: USTCSpeedtest
+    url: https://test.ustc.edu.cn/
 
   - category: Shopping
   - name: 京东
@@ -425,10 +427,8 @@ bookmark:
   - name: 企查查
     url: https://www.qcc.com
     favicon: qichacha.png
-  - name: 西贴
-    url: http://www.xitie.com
-  - name: 比一比价
-    url: http://b1bj.com
+  - name: 历史价格查询
+    url: http://www.lsjgcx.com
   - name: SteamDB
     url: https://steamdb.info
     favicon: steamdb.png

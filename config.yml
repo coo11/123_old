@@ -57,9 +57,6 @@ bookmark:
   - name: 文件传输助手
     url: https://szfilehelper.weixin.qq.com
     favicon: wechat.png
-  - name: Snapdrop
-    url: https://drop.ioiox.com
-    # url: https://snapdrop.net
   - name: Rentry.co
     url: https://rentry.co
     favicon: rentryco.png
@@ -105,9 +102,9 @@ bookmark:
   - name: Yandex 搜图
     url: https://yandex.com/images/
     favicon: yandeximage.png
-  - name: Google 图片
-    url: https://images.google.com
-    favicon: google.png
+  # - name: Google 图片
+  #   url: https://images.google.com
+  #   favicon: google.png
   - name: 百度识图
     url: https://image.baidu.com/?fr=shitu
     favicon: baidu.png
@@ -126,10 +123,8 @@ bookmark:
   - name: ascii2d
     url: https://ascii2d.net
     favicon: ascii2d.png
-  - name: Mag[i]
-    url: https://magi.com
-  - name: IQDB
-    url: https://iqdb.org/
+  # - name: IQDB
+  #   url: https://iqdb.org/
   # - name: Twitter 高级搜索
   #   url: https://twitter.com/search-advanced
   #   favicon: twitter.png
@@ -178,9 +173,9 @@ bookmark:
   #  url: https://bgm.tv/group/boring/forum # 靠谱人生茶话会
     url: https://bgm.tv/group/a/forum # ～技术宅真可怕～
     favicon: bangumi.png
-  - name: AcFun
-    url: https://www.acfun.cn
-    favicon: acfun.png
+  # - name: AcFun
+  #   url: https://www.acfun.cn
+  #   favicon: acfun.png
   # - name: 爱恋动漫
   #   url: https://www.kisssub.org/
   - name: Pixiv
@@ -192,7 +187,7 @@ bookmark:
     url: https://www.tsdm39.net/forum.php
   - name: 萌娘百科
     url: https://zh.moegirl.org.cn/Mainpage
-  - name: 动漫花园
+  - name: 動漫花園
     url: https://share.dmhy.org
   - name: <b>More....</b>
     newTab: true
@@ -268,9 +263,8 @@ bookmark:
   - name: Online Convert
     url: https://www.online-convert.com
     favicon: onlineconvert.png
-  - name: CloudConvert
-    url: https://cloudconvert.com
-    favicon: cloudconvert.png
+  # - name: CloudConvert
+  #   url: https://cloudconvert.com
   - name: iLovePDF
     url: https://www.ilovepdf.com/zh-cn
     favicon: ilovepdf.png
@@ -281,7 +275,7 @@ bookmark:
   - name: Sketchpad
     url: https://sketch.io/sketchpad/?lang=zh
     favicon: sketchpad.png
-  - name: USTCSpeedtest
+  - name: Speedtest
     url: https://test.ustc.edu.cn/
 
   - category: Shopping
@@ -379,9 +373,9 @@ bookmark:
   - name: Sankaku
     url: https://chan.sankakucomplex.com/cn/post
     favicon: sankakucomplex.png
-  - name: Konachan
-    url: https://konachan.com/post
-    favicon: konachan.png
+  # - name: Konachan
+  #   url: https://konachan.com/post
+  #   favicon: konachan.png
 
   - category: Calc
   - name: NumberEmpire

@@ -31,6 +31,6 @@ jobs:
         with:
           target_branch: gh-pages
           build_dir: dist
-          fqdn: g.coo11.eu.org
+          fqdn: 123.coo11.eu.org
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

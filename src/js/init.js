@@ -4,7 +4,7 @@
     if (!/mobile|mobi|wap|simulator|ipad|ipod|iphone|android/gi.test(ua)) {
       document.body.style.background = "url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAAAAADF+lnMAAAAAnRSTlMA/1uRIrUAAAAmSURBVAjXNcYxAQAwEAIx6t8er+c6AJnyUJwIo6UznelMl6AFLXybuUg2me0a1QAAAABJRU5ErkJggg==') fixed";
       try {
-        fetch("https://api.coo11.workers.dev/navi/bg", { method: 'HEAD' }).then(resp => {
+        fetch("https://api.coo11.eu.org/navi/bg", { method: 'HEAD' }).then(resp => {
           if (resp.status === 200) document.body.style.background = `url("${resp.url}") fixed no-repeat top center / cover`;
         })
       } catch (e) { }

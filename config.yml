@@ -224,6 +224,8 @@ bookmark:
     url: https://html-cleaner.com
   - name: CyberChef
     url: https://gchq.github.io/CyberChef/
+  - name: JSON Editor Online
+    url: https://jsoneditoronline.com/
   - name: <b>More....</b>
     newTab: true
     url: https://rentry.co/idev

@@ -58,7 +58,7 @@ bookmark:
     url: https://szfilehelper.weixin.qq.com
     favicon: wechat.png
   - name: Rentry.co
-    url: https://rentry.co/ibm5100
+    url: https://rentry.co/m5
     favicon: rentryco.png
   - name: Telegraph
     url: https://telegra.ph
@@ -70,7 +70,7 @@ bookmark:
     url: https://mazhuren.com
   - name: <b>More....</b>
     newTab: true
-    url: https://rentry.co/webservice
+    url: https://rentry.co/g1
 
   - category: SNS
   - name: 知乎
@@ -401,7 +401,7 @@ bookmark:
     favicon: rentryco.png
   - name: NoUse
     newTab: true
-    url: https://rentry.co/sitenouse
+    url: https://rentry.co/u6
     favicon: rentryco.png
   - name: ProjectChromium
     newTab: true

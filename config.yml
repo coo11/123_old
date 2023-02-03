@@ -279,6 +279,9 @@ bookmark:
     favicon: sketchpad.png
   - name: Speedtest
     url: https://test.ustc.edu.cn/
+  - name: ChatGPT
+    url: https://chat.openai.com/chat
+    favicon: chatgpt.png
 
   - category: Shopping
   - name: 京东

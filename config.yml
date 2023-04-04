@@ -139,8 +139,7 @@ bookmark:
 
   - category: Community
   - name: NGA
-    url: https://nga.178.com
-  #   url: https://bbs.nga.cn
+    url: https://bbs.nga.cn
     favicon: nga.png
   - name: V2EX
     url: https://www.v2ex.com/?tab=all
@@ -241,7 +240,7 @@ bookmark:
     url: https://jp.inoreader.com/language/chinese-simplified
     favicon: inoreader.png
   - name: UnicodeTable
-    url: https://unicode-table.com/cn/
+    url: https://old.unicode-table.com/cn/
     favicon: unicodetable.png
   - name: Dropmail
     url: https://dropmail.me/zh/
@@ -356,7 +355,7 @@ bookmark:
     url: https://www.aliyundrive.com/drive
     favicon: aliyundrive.png
   - name: PikPak
-    url: https://mumuchenchen.github.io/pikpak/#/list#mypikpak.com/drive/all
+    url: https://tjsky.github.io/pikpak/#/list#mypikpak.com/drive/all
     favicon: pikpak.png
   - name: 蓝奏云
     url: https://www.lanzou.com/
@@ -435,9 +434,9 @@ bookmark:
     url: https://www.humblebundle.com
     favicon: humble.png
   - name: Z-Library
-    url: https://1lib.domains
+    url: https://singlelogin.me
   - name: 福利吧
-    url: https://fuliba-1251744788.file.myqcloud.com
+    url: https://fuliba.net
 
   # - category: NSFW
   # - name: E-Hentai

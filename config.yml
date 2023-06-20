@@ -246,6 +246,7 @@ bookmark:
     url: https://dropmail.me/zh/
   - name: TableConvert
     url: https://tableconvert.com
+    favicon: tableconvert.png
   - name: IP
     url: https://ip.skk.moe/
   - name: InternetArchive
@@ -405,10 +406,8 @@ bookmark:
     newTab: true
     url: https://rentry.co/u6
     favicon: rentryco.png
-  - name: ProjectChromium
-    newTab: true
-    url: https://rentry.co/pch
-    favicon: rentryco.png
+  - name: Noises.online
+    url: https://noises.online
   - name: Github✋⭐
     url: https://rentry.co/githubnostar
     favicon: github.png

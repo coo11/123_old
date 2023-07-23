@@ -272,7 +272,7 @@ bookmark:
     favicon: ilovepdf.png
   - name: HTML2MD
     url: https://tool.lu/markdown/
-  - name: r12aEncodingConverter
+  - name: r12a
     url: https://r12a.github.io/app-encodings/
   - name: Sketchpad
     url: https://sketch.io/sketchpad/?lang=zh
@@ -347,7 +347,7 @@ bookmark:
     url: https://onedrive.live.com
     favicon: onedrive.png
   - name: Colab
-    url: https://colab.research.google.com
+    url: https://colab.research.google.com/notebooks/empty.ipynb
     favicon: colab.png
   - name: Vercel
     url: https://vercel.com/dashboard

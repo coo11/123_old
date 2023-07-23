@@ -178,7 +178,7 @@ bookmark:
   # - name: 爱恋动漫
   #   url: https://www.kisssub.org/
   - name: Pixiv
-    url: https://www.pixiv.net
+    url: https://www.pixiv.net/bookmark_new_illust.php
     favicon: pixiv.png
   - name: 动漫之家
     url: https://manhua.dmzj.com

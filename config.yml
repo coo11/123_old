@@ -34,11 +34,11 @@ bookmark:
     url: https://www.youtube.com
     favicon: youtube.png
   - name: 哔哩哔哩
-    url: https://www.bilibili.com
+    url: https://t.bilibili.com
     favicon: bilibili.png
   - name: Telegram
     #  url: https://web.telegram.org/k/
-    url: https://web.telegram.org/z/
+    url: https://web.telegram.org/a/
     favicon: telegram.png
   - name: 微信
     url: https://wx2.qq.com
@@ -199,9 +199,8 @@ bookmark:
   - name: SuperUser
     url: https://superuser.com
     favicon: superuser.png
-  - name: MDN
-    url: https://developer.mozilla.org/zh-CN/docs/Learn
-    favicon: mdn.png
+  # - name: MDN
+  #   url: https://developer.mozilla.org/zh-CN/docs/Learn
   - name: RegExr
     url: https://regexr.com
     favicon: regexr.png
@@ -237,7 +236,7 @@ bookmark:
     url: https://www.textnow.com/messaging
     favicon: textnow.png
   - name: Inoreader
-    url: https://jp.inoreader.com/language/chinese-simplified
+    url: https://jp.inoreader.com/zh-hans/
     favicon: inoreader.png
   - name: UnicodeTable
     url: https://old.unicode-table.com/cn/
@@ -271,7 +270,8 @@ bookmark:
     url: https://www.ilovepdf.com/zh-cn
     favicon: ilovepdf.png
   - name: HTML2MD
-    url: https://tool.lu/markdown/
+    url: https://www.helloworld.net/html2md
+    # url: https://tool.lu/markdown/
   - name: r12a
     url: https://r12a.github.io/app-encodings/
   - name: Sketchpad
@@ -282,6 +282,9 @@ bookmark:
   - name: ChatGPT
     url: https://chat.openai.com/chat
     favicon: chatgpt.png
+  - name: Bard
+    url: https://bard.google.com
+    favicon: bard.png
 
   - category: Shopping
   - name: 京东
@@ -417,7 +420,7 @@ bookmark:
     url: https://www.imdb.com
     favicon: imdb.png
   - name: 网盘搜索
-    url: https://adzhp.cn/wang-pan-sou-suo.html
+    url: https://adzhp.xyz/wang-pan-sou-suo.html
   - name: 天眼查
     url: https://www.tianyancha.com
     favicon: tianyancha.png

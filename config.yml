@@ -432,9 +432,11 @@ bookmark:
   - name: SteamDB
     url: https://steamdb.info
     favicon: steamdb.png
-  - name: Humble
-    url: https://www.humblebundle.com
-    favicon: humble.png
+  # - name: Humble
+  #   url: https://www.humblebundle.com
+  - name: MusicBrainZ
+    url: https://musicbrainz.org/search
+    favicon: musicbrainz.png
   - name: Z-Library
     url: https://singlelogin.me
   - name: 福利吧

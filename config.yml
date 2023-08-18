@@ -35,6 +35,7 @@ bookmark:
     favicon: youtube.png
   - name: 哔哩哔哩
     url: https://t.bilibili.com
+    #  url: https://search.bilibili.com/all
     favicon: bilibili.png
   - name: Telegram
     #  url: https://web.telegram.org/k/
@@ -183,7 +184,7 @@ bookmark:
   - name: 动漫之家
     url: https://manhua.dmzj.com
   - name: 天使动漫
-    url: https://www.tsdm39.net/forum.php
+    url: https://www.tsdm39.com/forum.php
   - name: 萌娘百科
     url: https://zh.moegirl.org.cn/Mainpage
   - name: 動漫花園
@@ -224,6 +225,9 @@ bookmark:
     url: https://gchq.github.io/CyberChef/
   - name: JSON Editor Online
     url: https://jsoneditoronline.com/
+  - name: REQBIN
+    url: https://reqbin.com/
+    favicon: reqbin.png
   - name: <b>More....</b>
     newTab: true
     url: https://rentry.co/idev
@@ -255,15 +259,15 @@ bookmark:
   - name: ウェブ魚拓
     url: https://megalodon.jp/
   - name: AriaNg
+    # Search instances: https://www.google.com/search?q=0.00+B%2Fs+AriaNg
     # url: http://ariang.mayswind.net/latest
     # url: http://www.ykamc.cn/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
     url: http://aria2.iloli.li/#!/settings/rpc/set/http/127.0.0.1/6800/jsonrpc
   - name: PaperSizes
     url: https://papersizes.io
     favicon: papersizes.png
-  - name: Online Convert
-    url: https://www.online-convert.com
-    favicon: onlineconvert.png
+  - name: FOFA
+    url: https://fofa.info/
   # - name: CloudConvert
   #   url: https://cloudconvert.com
   - name: iLovePDF
@@ -327,8 +331,6 @@ bookmark:
   - name: Unsplash
     url: https://unsplash.com/
     favicon: unsplash.png
-  - name: 动图基地
-    url: https://www.asqql.com/g/
 
   - category: Cloud Service
   - name: iCloud
